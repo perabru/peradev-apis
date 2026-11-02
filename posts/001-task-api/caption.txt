@@ -1,0 +1,10 @@
+Sua próxima aplicação precisa organizar tarefas?
+
+A primeira API do PeraDev já está no GitHub: crie, consulte, atualize e exclua tarefas, filtre por prioridade e conclusão e mantenha os dados depois de reiniciar.
+
+Node.js, zero dependências externas e testes HTTP. O README explica como rodar no seu computador; esta versão não é um serviço hospedado.
+
+Código: github.com/perabru/peradev-apis
+Salve para testar e conte qual API você quer ver na série.
+
+#PeraDev #API #NodeJS #Programacao #CodigoAberto

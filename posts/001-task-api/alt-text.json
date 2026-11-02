@@ -1,0 +1,5 @@
+[
+  "PeraDev, API 001: organize tarefas com uma API REST. Node.js, sem dependências externas. Criar, listar, atualizar e excluir tarefas com persistência em arquivo.",
+  "Exemplo de POST em /tasks com title Estudar APIs e priority high. Resposta resumida 201 Created com title Estudar APIs, priority high e done false. A API também retorna UUID e datas, omitidos na imagem.",
+  "Como testar: clone o repositório perabru/peradev-apis, abra apis/001-task-api e execute npm start. Documentação local em 127.0.0.1:3000/docs e testes com npm test. Código disponível no GitHub; post ainda preparado para publicação."
+]

@@ -1,0 +1,28 @@
+{
+  "brand": "PeraDev",
+  "repository": "perabru/peradev-apis",
+  "instagram": {
+    "account_created": false,
+    "handle": null,
+    "connection_status": "pending_signup_and_authorization"
+  },
+  "episodes": [
+    {
+      "number": 1,
+      "slug": "task-api",
+      "date": "2026-11-02",
+      "code_path": "apis/001-task-api",
+      "post_path": "posts/001-task-api",
+      "github_status": "published",
+      "instagram_status": "prepared_not_published",
+      "instagram_post_id": null,
+      "instagram_post_url": null,
+      "verification": {
+        "command": "npm test",
+        "tests_passed": 7,
+        "tests_failed": 0,
+        "node_version": "24.22.1"
+      }
+    }
+  ]
+}
