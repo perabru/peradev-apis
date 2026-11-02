@@ -2,11 +2,19 @@
 
 # PeraDev APIs
 
-**Uma API simples, útil e funcional por dia. Código aberto para aprender construindo.**
+**Dez APIs em dez dias. Código aberto para aprender construindo.**
 
 Projetos de Bruno Michel Pera com documentação em português, exemplos executáveis e testes de comportamento. Escolha uma API, rode no seu computador e use como ponto de partida para o seu próximo projeto.
 
 [Explorar as APIs](#catálogo) · [Ver os lançamentos](announcements/README.md) · [Sugerir uma API](https://github.com/perabru/peradev-apis/issues/new) · [Contribuir](CONTRIBUTING.md) · [Apoiar por Pix](#apoie-o-peradev)
+
+## Desafio de 10 dias
+
+**De 03 a 12/11/2026, com início diário às 07h (Brasília).** Cada dia tem um repositório independente, uma referência de API conhecida, implementação própria, testes, README e um texto para LinkedIn.
+
+Os dez repositórios já estão preparados. As APIs serão desenvolvidas e verificadas nas datas previstas.
+
+[Ver calendário, referências e repositórios →](docs/10-days.md)
 
 ## Em destaque
 
@@ -46,6 +54,8 @@ O código está publicado no GitHub; esta entrega é executada localmente e não
 A divulgação de cada API aparece aqui e em [Lançamentos](announcements/README.md). O [histórico de mudanças](CHANGELOG.md) e o [registro da série](series.json) mostram o que já foi entregue. A rotina de produção e divulgação acontece exclusivamente no GitHub.
 
 ## Apoie o PeraDev
+
+![Apoio voluntário por Pix](brand/pix-support.svg)
 
 Se este projeto foi útil para você e quiser incentivar a criação de novas APIs, considere uma colaboração voluntária por Pix.
 

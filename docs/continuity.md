@@ -1,29 +1,29 @@
-# Continuidade da série PeraDev APIs
-
-Destino: `perabru/peradev-apis`, branch `main`. O pedido atual é criar e divulgar APIs exclusivamente no GitHub.
-
-## Uma execução
-
-1. Leia o catálogo, `series.json` e o roteiro editorial. Escolha o próximo número sem duplicar tema ou entrega da mesma data local (`America/Sao_Paulo`). Retome trabalhos parciais.
-2. Implemente uma API pequena e funcional em `apis/NNN-slug`, com validação, erros claros, persistência quando necessária e documentação executável.
-3. Execute testes de comportamento real e registre os resultados. Preserve as APIs anteriores e suas verificações pertinentes.
-4. Escreva `announcements/NNN-slug.md` com benefício, recursos comprovados, exemplo real e como executar. Atualize destaque do README, catálogo, índice de anúncios, CHANGELOG e `series.json`.
-5. Publique tudo em um commit com a cabeça atual de `main` como parent, sem force. Preserve alterações concorrentes e confirme a publicação antes de anunciar sucesso.
-
-## Divulgação no GitHub
-
-A página inicial do repositório é a vitrine da série. Cada nova API ganha um anúncio acessível pelo README e pelo índice. Capas e demonstrações usam a paleta retrô da marca e devem mostrar o comportamento verdadeiro da versão publicada. Releases podem complementar os anúncios quando essa capacidade estiver disponível; os arquivos do anúncio são a entrega obrigatória.
-
-Convide quem já visita o projeto a testar, dar estrela, sugerir uma API ou contribuir. A divulgação fica no próprio repositório, sem propaganda em issues de terceiros, mensagens diretas ou anúncios pagos. Não invente métricas, depoimentos ou disponibilidade online.
+# Continuidade · desafio de dez dias
 
 ## Escopo vigente
 
-Em 02/11/2026, Bruno cancelou o trabalho com Instagram. Esta série não depende de login em rede social e não usa Gmail. Artes antigas e o kit de perfil podem permanecer como histórico; não são tarefas pendentes. A marca e o avatar continuam disponíveis para uso no GitHub.
+Em 02/11/2026, Bruno pediu uma sequência de **dez execuções**, de **03/11/2026 a 12/11/2026**, com início diário às **07h**, no fuso **America/Sao_Paulo**. Cada dia deve produzir uma API em um repositório próprio e preparar um texto para LinkedIn. A rotina anterior de novas APIs dentro de um único repositório foi substituída por este desafio.
 
-Nunca publique credenciais, dados privados ou arquivos de execução. Reconcilie resultados incertos antes de repetir uma publicação.
+O repositório `perabru/peradev-apis` funciona como catálogo e controle. A API de tarefas já existente continua como entrega anterior. Consulte `challenge-10-days.json` para o destino da data atual. Os dez repositórios da sequência já estão preparados; não criar outro repositório ou usar uma pasta do catálogo como destino da API.
 
-## Apoio e comunidade
+## Execução
 
-A rotina de produção começa às 07h, no fuso America/Sao_Paulo. Preserve a seção de apoio voluntário no README com a chave Pix `bruno.pera@unifesp.br`.
+1. Leia o manifesto atual, o README do repositório do dia e `docs/10-days.md`. Confira se o item já foi entregue e retome a mesma versão em caso de tentativa parcial.
+2. Consulte a documentação oficial atual da referência do dia. Implemente uma API própria e útil, sem copiar marca, código restrito ou dados não autorizados. Uma inspiração não é uma integração real.
+3. Inclua código executável, validação, erros claros, limites, persistência quando necessária e testes de comportamento por HTTP.
+4. Execute testes e exemplos. Não registrar a API como pronta se a verificação falhar. Integrações externas devem ter timeout, cache e tratamento de indisponibilidade; diferenciar dados reais, demonstração e testes simulados.
+5. Publique código, licença, instruções e um README caprichado no repositório do dia, seguindo `templates/api-readme.md`. Destaque a colaboração voluntária por Pix com a chave exata `bruno.pera@unifesp.br`.
+6. Salve `LINKEDIN.md` no mesmo repositório, com um texto profissional em português sobre a API. É um rascunho: não publicar automaticamente na rede social.
+7. Atualize manifesto, catálogo e histórico no hub com os links, verificação real, data e estado. Use a cabeça atual de cada branch; avance sem force e preserve alterações concorrentes.
 
-Consulte [community.md](community.md). Leia sugestões e problemas públicos do próprio repositório para orientar melhorias, sem enviar respostas ou propaganda a terceiros como parte desta rotina. Em cada entrega, registre uma melhoria concreta de documentação, apresentação ou facilidade de contribuição. Nas segundas-feiras, atualize [community-progress.md](community-progress.md) com dados reais e preserve o histórico. Não prometa popularidade nem fabrique avaliações ou métricas.
+## Divulgação e comunidade
+
+Manter a divulgação no próprio GitHub, com README, referências, exemplos, guias e chamadas para testar ou contribuir. Ler sugestões públicas do próprio repositório pode orientar melhorias, sem envio de respostas, mensagens ou propaganda a terceiros como parte desta rotina. Preservar a identidade retrô e o plano de comunidade. Não inventar métricas, avaliações ou disponibilidade online.
+
+A preparação de textos para LinkedIn não altera a autorização de publicação: o post de 02/11/2026 foi aprovado e publicado separadamente. Publicações futuras precisam de uma solicitação explícita.
+
+## Encerramento
+
+A regra de recorrência possui COUNT=10. Não criar outra rotina, prolongar o prazo ou adicionar uma décima primeira execução sem novo pedido. Se ocorrer um impedimento real, preservar o trabalho possível e informar o estado sem simular conclusão.
+
+Instagram continua fora do escopo e Gmail não é necessário para o desafio. Nunca publicar credenciais, dados privados ou arquivos de execução.

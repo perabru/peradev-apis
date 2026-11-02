@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
+<title id="title">Apoie a criação de APIs com uma colaboração voluntária por Pix</title>
+<desc id="desc">Seu apoio incentiva mais código aberto. Chave Pix: bruno.pera@unifesp.br. Colaboração opcional; código aberto e gratuito.</desc>
+<rect x="2" y="2" width="1096" height="296" rx="28" fill="#160E2B" stroke="#A847FF" stroke-width="3"/>
+<g fill="none"><path d="M890 -40C1120 0 1180 180 1010 330" stroke="#247BFF" stroke-width="12"/><path d="M930 -35C1160 20 1200 200 1050 330" stroke="#A847FF" stroke-width="6"/></g>
+<text x="44" y="52" fill="#FFD447" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="3">APOIO VOLUNTÁRIO</text>
+<text x="47" y="118" fill="#247BFF" font-family="Georgia,serif" font-size="43" font-weight="700">Seu apoio vira</text>
+<text x="44" y="114" fill="#FFF4CE" font-family="Georgia,serif" font-size="43" font-weight="700">Seu apoio vira</text>
+<text x="44" y="168" fill="#FFD447" font-family="Georgia,serif" font-size="43" font-weight="700">mais código aberto.</text>
+<text x="44" y="237" fill="#D0C7E5" font-family="Arial,sans-serif" font-size="18">Aprender · construir · compartilhar</text>
+<rect x="646" y="63" width="398" height="170" rx="20" fill="#291943" stroke="#247BFF" stroke-width="2"/>
+<text x="672" y="104" fill="#FFD447" font-family="Arial,sans-serif" font-size="24" font-weight="700">PIX</text>
+<text x="672" y="150" fill="#FFF4CE" font-family="monospace" font-size="22">bruno.pera@unifesp.br</text>
+<text x="672" y="194" fill="#D0C7E5" font-family="Arial,sans-serif" font-size="17">Colabore se este projeto ajudar você.</text>
+<text x="44" y="275" fill="#FFF4CE" font-family="Arial,sans-serif" font-size="16">Código gratuito para todos. Apoio sem obrigação e sem promessa de contrapartida.</text>
+</svg>
