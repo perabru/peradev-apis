@@ -6,7 +6,7 @@
 
 Projetos de Bruno Michel Pera com documentação em português, exemplos executáveis e testes de comportamento. Escolha uma API, rode no seu computador e use como ponto de partida para o seu próximo projeto.
 
-[Explorar as APIs](#catálogo) · [Ver os lançamentos](announcements/README.md) · [Sugerir uma API](https://github.com/perabru/peradev-apis/issues/new) · [Contribuir](CONTRIBUTING.md)
+[Explorar as APIs](#catálogo) · [Ver os lançamentos](announcements/README.md) · [Sugerir uma API](https://github.com/perabru/peradev-apis/issues/new) · [Contribuir](CONTRIBUTING.md) · [Apoiar por Pix](#apoie-o-peradev)
 
 ## Em destaque
 
@@ -45,10 +45,18 @@ O código está publicado no GitHub; esta entrega é executada localmente e não
 
 A divulgação de cada API aparece aqui e em [Lançamentos](announcements/README.md). O [histórico de mudanças](CHANGELOG.md) e o [registro da série](series.json) mostram o que já foi entregue. A rotina de produção e divulgação acontece exclusivamente no GitHub.
 
+## Apoie o PeraDev
+
+Se este projeto foi útil para você e quiser incentivar a criação de novas APIs, considere uma colaboração voluntária por Pix.
+
+**Chave Pix:** `bruno.pera@unifesp.br`
+
+Seu apoio incentiva a continuidade e a manutenção do projeto. A contribuição é opcional; o código permanece aberto e gratuito para todos.
+
 ## Como os projetos são preparados
 
 Cada API resolve um problema específico, tem instruções de execução e inclui verificações de comportamento real. Segredos e dados de execução ficam fora do repositório. Consulte o [roteiro editorial](docs/editorial.md) e o [procedimento da série](docs/continuity.md).
 
-Execute `npm test` na raiz para verificar as APIs Node.js presentes.
+Execute `npm test` na raiz para verificar as APIs Node.js presentes. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
 
 **Licença MIT · Bruno Michel Pera**

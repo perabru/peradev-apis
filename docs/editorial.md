@@ -16,6 +16,10 @@ Prefira exemplos que o leitor consiga copiar e executar. Diferencie claramente c
 
 O número identifica a API; a data registra quando ela foi entregue. A rotina diária não pode inventar uma entrega para preencher o calendário.
 
+## Clareza e participação
+
+Inclua um resumo curto em inglês nos novos anúncios, preservando o português como idioma principal. Verifique os exemplos por execução real e facilite sugestões por meio dos formulários de issues. Use o [plano para a comunidade](community.md) para orientar melhorias e o acompanhamento semanal.
+
 ## Próximos temas candidatos
 
 001 concluído: tarefas persistentes.

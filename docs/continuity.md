@@ -21,3 +21,9 @@ Convide quem já visita o projeto a testar, dar estrela, sugerir uma API ou cont
 Em 02/11/2026, Bruno cancelou o trabalho com Instagram. Esta série não depende de login em rede social e não usa Gmail. Artes antigas e o kit de perfil podem permanecer como histórico; não são tarefas pendentes. A marca e o avatar continuam disponíveis para uso no GitHub.
 
 Nunca publique credenciais, dados privados ou arquivos de execução. Reconcilie resultados incertos antes de repetir uma publicação.
+
+## Apoio e comunidade
+
+A rotina de produção começa às 07h, no fuso America/Sao_Paulo. Preserve a seção de apoio voluntário no README com a chave Pix `bruno.pera@unifesp.br`.
+
+Consulte [community.md](community.md). Leia sugestões e problemas públicos do próprio repositório para orientar melhorias, sem enviar respostas ou propaganda a terceiros como parte desta rotina. Em cada entrega, registre uma melhoria concreta de documentação, apresentação ou facilidade de contribuição. Nas segundas-feiras, atualize [community-progress.md](community-progress.md) com dados reais e preserve o histórico. Não prometa popularidade nem fabrique avaliações ou métricas.

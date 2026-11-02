@@ -1,0 +1,39 @@
+name: Relatar um problema
+description: Ajude a reproduzir e corrigir uma falha em uma API.
+title: "[Problema]: "
+body:
+  - type: input
+    id: api
+    attributes:
+      label: Qual API apresenta o problema?
+      placeholder: "Ex.: 001-task-api"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      description: Inclua a chamada HTTP e dados de exemplo fictícios.
+      placeholder: "1. Iniciei a API...\n2. Enviei a requisição...\n3. Observei..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado observado
+      description: Informe a resposta e o código de status, quando disponíveis.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente
+      placeholder: "Sistema operacional, versão do Node.js e como executou a API."
+    validations:
+      required: true

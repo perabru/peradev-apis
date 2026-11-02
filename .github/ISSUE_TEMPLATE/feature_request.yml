@@ -1,0 +1,30 @@
+name: Sugerir uma API
+description: Conte um problema que uma próxima API poderia resolver.
+title: "[Ideia]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Qual problema você quer resolver?
+      description: Descreva uma situação concreta de uso.
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Quem se beneficiaria e como?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Exemplo de entrada e saída
+      description: Use dados fictícios; um exemplo simples já ajuda.
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Referências ou detalhes adicionais
+    validations:
+      required: false
