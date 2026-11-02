@@ -24,7 +24,7 @@ Acesse http://127.0.0.1:3000/docs. Requer Node.js 22+. O código está publicado
 
 O [material do primeiro post](posts/001-task-api) inclui três imagens 1080 × 1350, textos alternativos e legenda. Confira o [registro da série](series.json) para distinguir código publicado de conteúdo ainda não enviado ao Instagram.
 
-O nome planejado da marca é **PeraDev**. O usuário `@peradev` ainda precisa ser confirmado no cadastro do Instagram; este repositório não afirma propriedade desse identificador.
+Nome de usuário informado por Bruno: **@peradevapis**. O [kit de perfil](brand) segue a identidade anos 70, com amarelo, azul e roxo neon. A configuração profissional e a publicação no Instagram ainda dependem de acesso autenticado.
 
 ## Padrão da série
 

@@ -5,26 +5,33 @@ from PIL import Image, ImageDraw, ImageFont
 
 HERE = Path(__file__).resolve().parent
 FONT_DIR = Path('/usr/share/fonts/truetype/dejavu')
-BG, INK, GREEN, MUTED, PANEL = '#101819', '#F5F7EF', '#C6F36B', '#A9BAB1', '#1D2B29'
+BG, INK, GREEN, MUTED, PANEL = '#160E2B', '#FFF4CE', '#FFD447', '#B9B5E2', '#261744'
 def font(size, bold=False, mono=False):
+    if bold and not mono:
+        retro = Path('/usr/share/fonts/opentype/urw-base35/URWBookman-Demi.otf')
+        if retro.exists(): return ImageFont.truetype(str(retro), size)
     name = 'DejaVuSansMono.ttf' if mono else ('DejaVuSans-Bold.ttf' if bold else 'DejaVuSans.ttf')
     return ImageFont.truetype(str(FONT_DIR / name), size)
 
 def text(draw, xy, value, size=36, color=INK, bold=False, mono=False):
+    if bold and size >= 70:
+        draw.text((xy[0]+5,xy[1]+5), value, font=font(size,bold,mono), fill='#247BFF', spacing=12)
     draw.text(xy, value, font=font(size,bold,mono), fill=color, spacing=12)
 
 def base(page, label):
     im = Image.new('RGB',(1080,1350),BG)
     d = ImageDraw.Draw(im)
+    d.arc((760,-210,1260,300),20,250,fill='#247BFF',width=12)
+    d.arc((790,-180,1240,270),20,250,fill='#A847FF',width=8)
     for x in range(660,1080,48):
-        for y in range(110,420,48): d.ellipse((x,y,x+3,y+3),fill='#2A3934')
+        for y in range(110,420,48): d.ellipse((x,y,x+3,y+3),fill='#3B2466')
     d.ellipse((72,73,111,119),fill=GREEN)
     d.ellipse((79,61,104,83),fill=GREEN)
     d.line((96,64,101,51),fill=GREEN,width=5)
-    text(d,(130,65),'PeraDev',42,bold=True)
-    d.rounded_rectangle((72,154,380,205),radius=25,outline='#50623E',width=2)
+    text(d,(130,65),'PeraDev APIs',40,bold=True)
+    d.rounded_rectangle((72,154,380,205),radius=25,outline='#A847FF',width=2)
     text(d,(96,164),label,23,GREEN,bold=True)
-    d.line((72,1218,1008,1218),fill='#35453D',width=2)
+    d.line((72,1218,1008,1218),fill='#247BFF',width=2)
     text(d,(72,1250),'APIs úteis. Código aberto.',25,MUTED)
     text(d,(912,1246),f'{page}/3',28,GREEN,mono=True)
     return im,d

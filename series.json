@@ -2,9 +2,12 @@
   "brand": "PeraDev",
   "repository": "perabru/peradev-apis",
   "instagram": {
-    "account_created": false,
-    "handle": null,
-    "connection_status": "pending_signup_and_authorization"
+    "account_created": null,
+    "account_creation_report": "user_reported_completed",
+    "handle": "peradevapis",
+    "connection_status": "pending_authenticated_access",
+    "profile_status": "prepared_not_applied",
+    "avatar_path": "brand/peradev-avatar.png"
   },
   "episodes": [
     {
@@ -24,5 +27,15 @@
         "node_version": "24.22.1"
       }
     }
-  ]
+  ],
+  "branding": {
+    "style": "1970s_retro_neon",
+    "palette": {
+      "yellow": "#FFD447",
+      "electric_blue": "#247BFF",
+      "neon_purple": "#A847FF",
+      "deep_purple": "#160E2B",
+      "warm_white": "#FFF4CE"
+    }
+  }
 }

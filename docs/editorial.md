@@ -1,12 +1,19 @@
 # PeraDev · Direção editorial
 
-Nome de exibição: **PeraDev**. Sugestão de bio (aplicar após criar a conta):
+Nome de exibição planejado: **PeraDev APIs | Programação**. Usuário informado: **@peradevapis**. Kit para aplicar depois da autenticação: [profile.json](../brand/profile.json).
 
-> APIs úteis, código aberto e projetos que funcionam. 👨‍💻 Bruno Pera | Aprenda construindo ↓
+Bio preparada:
+
+> ⚡ APIs úteis, simples e funcionais  
+> 💻 Código aberto + projetos na prática  
+> 🚀 Uma API nova por dia  
+> 👇 Explore o código no GitHub
 
 Link para a bio: https://github.com/perabru/peradev-apis
 
-Identidade: fundo grafite `#101819`, verde pera `#C6F36B`, branco quente `#F5F7EF`, tipografia limpa e monoespaçada para código. O número da API identifica cada episódio; não implica publicação em um dia de calendário específico.
+Identidade: anos 70 com amarelo `#FFD447`, azul elétrico `#247BFF`, roxo neon `#A847FF`, fundo roxo profundo `#160E2B` e branco quente `#FFF4CE`. Títulos retrô arredondados com boa leitura, código monoespaçado, órbitas e curvas discretas. Avatar em [brand/peradev-avatar.png](../brand/peradev-avatar.png).
+
+O número da API identifica cada episódio; não implica publicação em um dia de calendário específico.
 
 ## Estrutura de cada entrega
 

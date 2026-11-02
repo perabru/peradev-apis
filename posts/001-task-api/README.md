@@ -5,6 +5,6 @@ Formato JPEG, 1080 × 1350 pixels (4:5). Legenda: `caption.txt`. Acessibilidade:
 
 O exemplo resumido da segunda imagem foi obtido de uma chamada HTTP real; o retorno completo está em `example-response.json`. Código e instruções correspondem à versão 1.0.0 da Task API.
 
-Estado: **preparado; não publicado no Instagram**. O identificador `@peradev` não foi reservado ou confirmado.
+Estado: **preparado; não publicado no Instagram**. Usuário informado por Bruno: `@peradevapis`; o acesso ainda precisa ser confirmado. A identidade deste carrossel foi atualizada para amarelo, azul e roxo neon, com títulos retrô anos 70.
 
 Para gerar novamente, instale Pillow a partir do PyPI e tenha as fontes DejaVu Sans disponíveis. Execute `python3 render_cards.py`; ajuste `FONT_DIR` se o sistema usar outro caminho. As imagens contêm texto e código exatos, compostos por este script.

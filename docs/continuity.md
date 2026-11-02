@@ -12,8 +12,8 @@ Use a cabeça atual de `main` como parent e um avanço sem force. Se houver atua
 
 ## Instagram
 
-Estado inicial: cadastro e conexão pendentes. A produção diária do GitHub e do material gráfico pode funcionar independentemente. A rotina diária inicial não publica no Instagram.
+Estado em 02/11/2026: Bruno informou a criação de @peradevapis; acesso e conexão ainda não confirmados. A tentativa de login no formulário seguro retornou dados incorretos. A produção diária do GitHub e do material gráfico pode funcionar independentemente. A rotina diária inicial não publica no Instagram.
 
-Para habilitar publicação, Bruno deve concluir o cadastro de PeraDev, confirmar o identificador disponível, usar uma conta profissional (Criador/Empresa) e autorizar uma integração compatível. Só então atualizar a automação explicitamente para a conta confirmada. Não registrar credenciais no repositório nem solicitar que sejam coladas no chat.
+Para habilitar publicação, é necessário confirmar acesso à conta @peradevapis, aplicar o kit brand/profile.json, usar uma conta profissional (preferência planejada: Criador) e autorizar uma integração compatível. Só então atualizar a automação explicitamente para a conta confirmada. Não registrar credenciais no repositório nem solicitar que sejam coladas no chat.
 
 Depois de haver conexão real, confirmar a identidade da conta antes de publicar cada novo episódio. Usar o canal autorizado e registrar o identificador e a URL reais; em caso de erro, manter o material como pendente. Se a plataforma exigir aprovação do post, apresentá-lo para revisão em vez de registrar sucesso. Não enviar DMs nem seguir/curtir perfis como parte desta série.
