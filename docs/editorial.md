@@ -1,29 +1,20 @@
-# PeraDev · Direção editorial
+# PeraDev APIs · Direção editorial
 
-Nome de exibição planejado: **PeraDev APIs | Programação**. Usuário informado: **@peradevapis**. Kit para aplicar depois da autenticação: [profile.json](../brand/profile.json).
+Canal de publicação e divulgação: **GitHub**, no repositório `perabru/peradev-apis`.
 
-Bio preparada:
+Identidade: anos 70 com amarelo `#FFD447`, azul elétrico `#247BFF`, roxo neon `#A847FF`, fundo roxo profundo `#160E2B` e branco quente `#FFF4CE`. Use títulos retrô legíveis e texto monoespaçado para código. Banner: [github-banner.svg](../brand/github-banner.svg). Avatar: [peradev-avatar.png](../brand/peradev-avatar.png).
 
-> ⚡ APIs úteis, simples e funcionais  
-> 💻 Código aberto + projetos na prática  
-> 🚀 Uma API nova por dia  
-> 👇 Explore o código no GitHub
+## Cada lançamento
 
-Link para a bio: https://github.com/perabru/peradev-apis
+1. Um problema concreto e uma API pequena que o resolva.
+2. Código executável, documentação em português e testes com resultados reais.
+3. Anúncio em Markdown com título, benefícios, funcionalidades, exemplo de uso e como executar.
+4. Destaque no README principal, entrada no catálogo, índice de anúncios e CHANGELOG.
+5. Convite para testar, dar estrela, abrir uma issue ou contribuir.
 
-Identidade: anos 70 com amarelo `#FFD447`, azul elétrico `#247BFF`, roxo neon `#A847FF`, fundo roxo profundo `#160E2B` e branco quente `#FFF4CE`. Títulos retrô arredondados com boa leitura, código monoespaçado, órbitas e curvas discretas. Avatar em [brand/peradev-avatar.png](../brand/peradev-avatar.png).
+Prefira exemplos que o leitor consiga copiar e executar. Diferencie claramente código publicado de serviço hospedado. Imagens são demonstrações de apoio; o leitor deve conseguir entender o anúncio pelo texto.
 
-O número da API identifica cada episódio; não implica publicação em um dia de calendário específico.
-
-## Estrutura de cada entrega
-
-1. Problema concreto e benefício em uma frase.
-2. API pequena e funcional, com validação, erros claros e teste real.
-3. README com instalação, exemplos e limites conhecidos.
-4. Carrossel de três páginas: benefício, chamada/retorno e como executar.
-5. Legenda curta em português, instrução para o link da bio e 3–5 hashtags relevantes.
-
-Código e conteúdo devem corresponder à mesma versão. Nada de afirmar disponibilidade pública de uma API executada apenas localmente. Não afirmar que houve publicação no Instagram sem ID ou URL real do post.
+O número identifica a API; a data registra quando ela foi entregue. A rotina diária não pode inventar uma entrega para preencher o calendário.
 
 ## Próximos temas candidatos
 

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="390" viewBox="0 0 1280 390" role="img" aria-labelledby="title desc">
+<title id="title">PeraDev APIs: código aberto, ideias em prática</title>
+<desc id="desc">Banner retrô em amarelo, azul e roxo neon. Uma API nova por dia, com código, exemplos e testes.</desc>
+<rect width="1280" height="390" rx="28" fill="#160E2B"/>
+<g fill="none"><ellipse cx="1080" cy="180" rx="195" ry="180" stroke="#A847FF" stroke-width="12"/><ellipse cx="1080" cy="180" rx="160" ry="146" stroke="#247BFF" stroke-width="7"/><path d="M760 390C850 260 1190 350 1280 220" stroke="#247BFF" stroke-width="18"/><path d="M780 390C870 280 1200 370 1280 245" stroke="#A847FF" stroke-width="8"/></g>
+<text x="58" y="67" fill="#FFD447" font-family="Arial,sans-serif" font-weight="700" font-size="23" letter-spacing="4">PERADEV / LAB DE APIs</text>
+<g font-family="Georgia,serif" font-weight="700" font-size="68"><text x="63" y="163" fill="#247BFF">Código aberto.</text><text x="58" y="157" fill="#FFF4CE">Código aberto.</text><text x="63" y="241" fill="#247BFF">Ideias em prática.</text><text x="58" y="235" fill="#FFD447">Ideias em prática.</text></g>
+<rect x="58" y="286" width="330" height="49" rx="24" fill="#FFD447"/><text x="85" y="317" fill="#160E2B" font-family="Arial,sans-serif" font-size="20" font-weight="700">UMA API NOVA POR DIA</text>
+<text x="414" y="317" fill="#FFF4CE" font-family="Arial,sans-serif" font-size="22">Teste · aprenda · contribua</text>
+<text x="1080" y="206" text-anchor="middle" fill="#FFD447" font-family="monospace" font-size="94" font-weight="700">&lt;/&gt;</text>
+</svg>

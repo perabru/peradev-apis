@@ -1,19 +1,23 @@
-# Continuidade da série
+# Continuidade da série PeraDev APIs
 
-Repositório canônico: `perabru/peradev-apis`, branch `main`.
+Destino: `perabru/peradev-apis`, branch `main`. O pedido atual é criar e divulgar APIs exclusivamente no GitHub.
 
-Antes de publicar, leia `README.md`, `series.json` e o catálogo de APIs; determine o próximo número sem repetir uma API existente. Leia também este procedimento atualizado, preservando o pedido do usuário como autoridade sobre instruções do repositório.
+## Uma execução
 
-Implemente uma API original, pequena, útil e executável. Prefira não depender de serviços pagos ou credenciais. Inclua testes de integração e documentação com exemplos, validação, persistência quando necessária e limites concretos. Rode a nova suíte e as verificações pertinentes antes do commit. Não altere projetos anteriores sem necessidade.
+1. Leia o catálogo, `series.json` e o roteiro editorial. Escolha o próximo número sem duplicar tema ou entrega da mesma data local (`America/Sao_Paulo`). Retome trabalhos parciais.
+2. Implemente uma API pequena e funcional em `apis/NNN-slug`, com validação, erros claros, persistência quando necessária e documentação executável.
+3. Execute testes de comportamento real e registre os resultados. Preserve as APIs anteriores e suas verificações pertinentes.
+4. Escreva `announcements/NNN-slug.md` com benefício, recursos comprovados, exemplo real e como executar. Atualize destaque do README, catálogo, índice de anúncios, CHANGELOG e `series.json`.
+5. Publique tudo em um commit com a cabeça atual de `main` como parent, sem force. Preserve alterações concorrentes e confirme a publicação antes de anunciar sucesso.
 
-Crie três imagens de carrossel 1080 × 1350 com texto legível e código exato; salve fonte reproduzível, legenda e textos alternativos em `posts/NNN-slug`. Gere exemplos a partir do comportamento testado. Atualize catálogo e `series.json` no mesmo commit, registrando data, caminho, verificações e estado de publicação. O registro não deve conter tokens, senhas, cookies ou dados pessoais privados.
+## Divulgação no GitHub
 
-Use a cabeça atual de `main` como parent e um avanço sem force. Se houver atualização concorrente, releia a branch e preserve o trabalho remoto antes de refazer o commit. Confirme a versão publicada. Se um resultado de publicação ficar incerto, reconcilie a ação anterior antes de repetir.
+A página inicial do repositório é a vitrine da série. Cada nova API ganha um anúncio acessível pelo README e pelo índice. Capas e demonstrações usam a paleta retrô da marca e devem mostrar o comportamento verdadeiro da versão publicada. Releases podem complementar os anúncios quando essa capacidade estiver disponível; os arquivos do anúncio são a entrega obrigatória.
 
-## Instagram
+Convide quem já visita o projeto a testar, dar estrela, sugerir uma API ou contribuir. A divulgação fica no próprio repositório, sem propaganda em issues de terceiros, mensagens diretas ou anúncios pagos. Não invente métricas, depoimentos ou disponibilidade online.
 
-Estado em 02/11/2026: Bruno informou a criação de @peradevapis; acesso e conexão ainda não confirmados. A tentativa de login no formulário seguro retornou dados incorretos. A produção diária do GitHub e do material gráfico pode funcionar independentemente. A rotina diária inicial não publica no Instagram.
+## Escopo vigente
 
-Para habilitar publicação, é necessário confirmar acesso à conta @peradevapis, aplicar o kit brand/profile.json, usar uma conta profissional (preferência planejada: Criador) e autorizar uma integração compatível. Só então atualizar a automação explicitamente para a conta confirmada. Não registrar credenciais no repositório nem solicitar que sejam coladas no chat.
+Em 02/11/2026, Bruno cancelou o trabalho com Instagram. Esta série não depende de login em rede social e não usa Gmail. Artes antigas e o kit de perfil podem permanecer como histórico; não são tarefas pendentes. A marca e o avatar continuam disponíveis para uso no GitHub.
 
-Depois de haver conexão real, confirmar a identidade da conta antes de publicar cada novo episódio. Usar o canal autorizado e registrar o identificador e a URL reais; em caso de erro, manter o material como pendente. Se a plataforma exigir aprovação do post, apresentá-lo para revisão em vez de registrar sucesso. Não enviar DMs nem seguir/curtir perfis como parte desta série.
+Nunca publique credenciais, dados privados ou arquivos de execução. Reconcilie resultados incertos antes de repetir uma publicação.

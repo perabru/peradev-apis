@@ -5,9 +5,10 @@
     "account_created": null,
     "account_creation_report": "user_reported_completed",
     "handle": "peradevapis",
-    "connection_status": "pending_authenticated_access",
-    "profile_status": "prepared_not_applied",
-    "avatar_path": "brand/peradev-avatar.png"
+    "connection_status": "cancelled_by_user",
+    "profile_status": "cancelled_by_user",
+    "avatar_path": "brand/peradev-avatar.png",
+    "work_cancelled_on": "2026-11-02"
   },
   "episodes": [
     {
@@ -17,7 +18,7 @@
       "code_path": "apis/001-task-api",
       "post_path": "posts/001-task-api",
       "github_status": "published",
-      "instagram_status": "prepared_not_published",
+      "instagram_status": "cancelled_by_user",
       "instagram_post_id": null,
       "instagram_post_url": null,
       "verification": {
@@ -25,7 +26,10 @@
         "tests_passed": 7,
         "tests_failed": 0,
         "node_version": "24.22.1"
-      }
+      },
+      "promotion_path": "announcements/001-task-api.md",
+      "promotion_status": "published",
+      "promotion_channel": "github"
     }
   ],
   "branding": {
@@ -37,5 +41,12 @@
       "deep_purple": "#160E2B",
       "warm_white": "#FFF4CE"
     }
+  },
+  "workflow": {
+    "platforms": [
+      "github"
+    ],
+    "promotion_channel": "github",
+    "instagram_cancelled_on": "2026-11-02"
   }
 }

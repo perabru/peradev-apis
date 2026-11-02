@@ -1,16 +1,24 @@
-# PeraDev
+![PeraDev APIs — código aberto, ideias em prática](brand/github-banner.svg)
 
-**Uma API simples, útil e funcional por vez.**
+# PeraDev APIs
 
-Projetos independentes, documentação em português, exemplos executáveis e testes. Uma série criada por Bruno Michel Pera para aprender construindo e compartilhar soluções que funcionam.
+**Uma API simples, útil e funcional por dia. Código aberto para aprender construindo.**
 
-## Catálogo
+Projetos de Bruno Michel Pera com documentação em português, exemplos executáveis e testes de comportamento. Escolha uma API, rode no seu computador e use como ponto de partida para o seu próximo projeto.
 
-| # | API | Funcionalidade | Tecnologia |
-|---|---|---|---|
-| 001 | [Task API](apis/001-task-api) | CRUD de tarefas, filtros, paginação e persistência | Node.js, zero dependências |
+[Explorar as APIs](#catálogo) · [Ver os lançamentos](announcements/README.md) · [Sugerir uma API](https://github.com/perabru/peradev-apis/issues/new) · [Contribuir](CONTRIBUTING.md)
 
-## Comece pela primeira API
+## Em destaque
+
+### 001 · Task API — organize tarefas sem instalar dependências
+
+Crie, consulte, atualize e exclua tarefas. Combine busca, prioridade e status de conclusão, com paginação e persistência após reiniciar.
+
+**Node.js 22+ · zero dependências externas · contrato OpenAPI · 7 testes aprovados na versão inicial**
+
+[Conheça o lançamento →](announcements/001-task-api.md) · [Abra o código →](apis/001-task-api) · [Veja a documentação →](apis/001-task-api/README.md)
+
+## Teste em poucos passos
 
 ```bash
 git clone https://github.com/perabru/peradev-apis.git
@@ -18,20 +26,29 @@ cd peradev-apis/apis/001-task-api
 npm start
 ```
 
-Acesse http://127.0.0.1:3000/docs. Requer Node.js 22+. O código está publicado; a API é executada localmente, sem serviço público hospedado.
+Abra http://127.0.0.1:3000/docs. Não é necessário executar `npm install` nesta API.
 
-## Publicações
+O código está publicado no GitHub; esta entrega é executada localmente e não inclui um endpoint público hospedado.
 
-O [material do primeiro post](posts/001-task-api) inclui três imagens 1080 × 1350, textos alternativos e legenda. Confira o [registro da série](series.json) para distinguir código publicado de conteúdo ainda não enviado ao Instagram.
+## Catálogo
 
-Nome de usuário informado por Bruno: **@peradevapis**. O [kit de perfil](brand) segue a identidade anos 70, com amarelo, azul e roxo neon. A configuração profissional e a publicação no Instagram ainda dependem de acesso autenticado.
+| # | API | Para que serve | Tecnologia | Lançamento |
+|---|---|---|---|---|
+| 001 | [Task API](apis/001-task-api) | Tarefas com CRUD, filtros, paginação e persistência | Node.js | [Conhecer](announcements/001-task-api.md) |
 
-## Padrão da série
+## Acompanhe a série
 
-- Cada API resolve um problema específico e inclui instruções para executar.
-- Testes cobrem comportamento real e entradas inválidas.
-- Segredos, tokens, dados pessoais e arquivos de execução ficam fora do Git.
-- Consulte o [roteiro editorial](docs/editorial.md) e o [procedimento de continuidade](docs/continuity.md).
-- Execute `npm test` na raiz para verificar as APIs Node.js presentes.
+- **Dê uma estrela** para encontrar o projeto com facilidade.
+- **Use Watch → Custom → Releases** se quiser acompanhar releases que forem publicados.
+- **[Abra uma issue](https://github.com/perabru/peradev-apis/issues/new)** para sugerir a próxima API ou relatar um problema.
+- **Faça um fork e contribua:** melhorias de código, testes e documentação são bem-vindas.
 
-Licença MIT.
+A divulgação de cada API aparece aqui e em [Lançamentos](announcements/README.md). O [histórico de mudanças](CHANGELOG.md) e o [registro da série](series.json) mostram o que já foi entregue. A rotina de produção e divulgação acontece exclusivamente no GitHub.
+
+## Como os projetos são preparados
+
+Cada API resolve um problema específico, tem instruções de execução e inclui verificações de comportamento real. Segredos e dados de execução ficam fora do repositório. Consulte o [roteiro editorial](docs/editorial.md) e o [procedimento da série](docs/continuity.md).
+
+Execute `npm test` na raiz para verificar as APIs Node.js presentes.
+
+**Licença MIT · Bruno Michel Pera**
