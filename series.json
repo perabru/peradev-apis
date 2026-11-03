@@ -32,6 +32,28 @@
       "promotion_channel": "github",
       "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523032339095146496/",
       "linkedin_status": "published_with_user_approval"
+    },
+    {
+      "number": 2,
+      "challenge_day": 1,
+      "slug": "project-shelf-api",
+      "date": "2026-11-03",
+      "repository": "perabru/api-lab-2026-11-03",
+      "code_url": "https://github.com/perabru/api-lab-2026-11-03",
+      "github_status": "published",
+      "verification": {
+        "command": "npm test",
+        "tests_passed": 11,
+        "tests_failed": 0,
+        "node_version": "24.22.1",
+        "commit_sha": "e06e6380bc826e623a0d3140fd0df0a78a0acf32",
+        "report_url": "https://github.com/perabru/api-lab-2026-11-03/blob/main/VERIFICATION.md"
+      },
+      "promotion_path": "announcements/002-project-shelf.md",
+      "promotion_status": "published",
+      "promotion_channel": "github",
+      "linkedin_status": "draft_prepared_not_published",
+      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-03/blob/main/LINKEDIN.md"
     }
   ],
   "branding": {
@@ -60,6 +82,7 @@
     "run_time": "07:00",
     "timezone": "America/Sao_Paulo",
     "scheduled_runs": 10,
-    "status": "scheduled"
+    "status": "in_progress",
+    "completed_days": 1
   }
 }

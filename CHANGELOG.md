@@ -1,5 +1,13 @@
 # Histórico de mudanças
 
+## 2026-11-03
+
+- Publicada a Project Shelf API (dia 01) em [repositório independente](https://github.com/perabru/api-lab-2026-11-03), preservando a Task API 001.
+- CRUD, busca, etiquetas, ordenação e paginação Link com filtros preservados; persistência em JSON.
+- Verificação local: 11 testes HTTP aprovados, 0 falhas, Node.js 24.22.1. [Relatório](https://github.com/perabru/api-lab-2026-11-03/blob/main/VERIFICATION.md).
+- README retrô com apoio voluntário por Pix, demo isolada, guia de contribuição e formulário de bug.
+- Anúncio no GitHub e LINKEDIN.md preparado para revisão; nenhum novo post foi publicado na rede social.
+
 ## 2026-11-02
 
 - Configurado o desafio de dez execuções às 07h, de 03 a 12/11/2026.

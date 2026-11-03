@@ -19,11 +19,24 @@
       "concept": "Recursos REST, paginação e cabeçalhos Link; dados próprios, sem fingir consultar a conta GitHub.",
       "repo_name": "api-lab-2026-11-03",
       "repo_full_name": "perabru/api-lab-2026-11-03",
-      "status": "repository_prepared",
+      "status": "published",
       "repository_url": "https://github.com/perabru/api-lab-2026-11-03",
-      "implementation_status": "not_started",
-      "linkedin_status": "not_prepared",
-      "api_verified": false
+      "implementation_status": "implemented_and_tested",
+      "linkedin_status": "draft_prepared_not_published",
+      "api_verified": true,
+      "published_on": "2026-11-03",
+      "commit_sha": "e06e6380bc826e623a0d3140fd0df0a78a0acf32",
+      "api_name": "Project Shelf API",
+      "readme_url": "https://github.com/perabru/api-lab-2026-11-03/blob/main/README.md",
+      "announcement_url": "https://github.com/perabru/api-lab-2026-11-03/blob/main/ANNOUNCEMENT.md",
+      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-03/blob/main/LINKEDIN.md",
+      "verification": {
+        "command": "npm test",
+        "tests_passed": 11,
+        "tests_failed": 0,
+        "node_version": "24.22.1",
+        "report_url": "https://github.com/perabru/api-lab-2026-11-03/blob/main/VERIFICATION.md"
+      }
     },
     {
       "day": 2,

@@ -4,13 +4,13 @@
 
 Cada data tem seu próprio repositório público. Os dez repositórios foram preparados antecipadamente com README e apoio voluntário por Pix. Isso permite que a rotina agendada publique os arquivos pela conexão GitHub, sem depender da criação de um repositório pelo navegador a cada manhã.
 
-> Os repositórios existem; as dez APIs ainda serão implementadas e testadas nas respectivas execuções. Não há código funcional prometido antes de sua verificação.
+> **Dia 01 publicado e testado em 03/11/2026:** Project Shelf API, 11 testes aprovados. As nove APIs seguintes ainda serão implementadas nas respectivas datas; seus repositórios estão preparados.
 
 ## Calendário e referências
 
-| Dia | Data | Repositório e tema planejado | Referência | Estado inicial |
+| Dia | Data | Repositório e tema planejado | Referência | Estado atual |
 |---|---|---|---|---|
-| 01 | 03/11/2026 | [Catálogo de projetos com busca e paginação](https://github.com/perabru/api-lab-2026-11-03) | GitHub REST API | Preparado; API agendada |
+| 01 | 03/11/2026 | [Catálogo de projetos com busca e paginação](https://github.com/perabru/api-lab-2026-11-03) | GitHub REST API | Publicado; 11 testes aprovados |
 | 02 | 04/11/2026 | [Pedidos com idempotência e valores em centavos](https://github.com/perabru/api-lab-2026-11-04) | Stripe API | Preparado; API agendada |
 | 03 | 05/11/2026 | [Quadros Kanban com colunas e cartões](https://github.com/perabru/api-lab-2026-11-05) | Trello REST API | Preparado; API agendada |
 | 04 | 06/11/2026 | [Publicações e comentários com persistência real](https://github.com/perabru/api-lab-2026-11-06) | JSONPlaceholder | Preparado; API agendada |
@@ -22,6 +22,15 @@ Cada data tem seu próprio repositório público. Os dez repositórios foram pre
 | 10 | 12/11/2026 | [Biblioteca com catálogo e empréstimos](https://github.com/perabru/api-lab-2026-11-12) | Open Library APIs | Preparado; API agendada |
 
 Os temas são um plano de implementação. Se uma integração exigir credenciais indisponíveis, tiver limites incompatíveis ou mudar de versão, a implementação pode ser ajustada mantendo um caso de uso útil, a referência e a transparência sobre os limites.
+
+## Evidência da entrega de 03/11/2026
+
+- [Project Shelf API — código e README](https://github.com/perabru/api-lab-2026-11-03)
+- [Commit publicado](https://github.com/perabru/api-lab-2026-11-03/commit/e06e6380bc826e623a0d3140fd0df0a78a0acf32)
+- [11 testes aprovados e limites da verificação](https://github.com/perabru/api-lab-2026-11-03/blob/main/VERIFICATION.md)
+- [Anúncio](https://github.com/perabru/api-lab-2026-11-03/blob/main/ANNOUNCEMENT.md) · [Texto para LinkedIn, apenas rascunho](https://github.com/perabru/api-lab-2026-11-03/blob/main/LINKEDIN.md)
+- Melhoria de contribuição: demonstração isolada que não altera os dados do usuário, guia de contribuição e formulário de bug reproduzível.
+- Referência GitHub revisitada em 03/11/2026. Sem integração com conta GitHub ou serviço hospedado.
 
 ## Documentação oficial consultada
 

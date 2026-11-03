@@ -12,11 +12,19 @@ Projetos de Bruno Michel Pera com documentação em português, exemplos execut�
 
 **De 03 a 12/11/2026, com início diário às 07h (Brasília).** Cada dia tem um repositório independente, uma referência de API conhecida, implementação própria, testes, README e um texto para LinkedIn.
 
-Os dez repositórios já estão preparados. As APIs serão desenvolvidas e verificadas nas datas previstas.
+O dia 01 está publicado e verificado: **Project Shelf API, 11 testes aprovados**. Os outros nove repositórios estão preparados; suas APIs ainda serão desenvolvidas e verificadas nas datas previstas.
 
 [Ver calendário, referências e repositórios →](docs/10-days.md)
 
 ## Em destaque
+
+### Dia 01 · Project Shelf API — encontre seus projetos
+
+Catálogo local com CRUD, busca, etiquetas, ordenação, paginação por cabeçalhos Link e persistência. Inspirado na documentação de paginação da GitHub REST API, com dados próprios e sem token.
+
+**03/11/2026 · Node.js 22+ · zero dependências externas · 11 testes HTTP aprovados**
+
+[Repositório →](https://github.com/perabru/api-lab-2026-11-03) · [README →](https://github.com/perabru/api-lab-2026-11-03/blob/main/README.md) · [Anúncio →](announcements/002-project-shelf.md) · [Evidências →](https://github.com/perabru/api-lab-2026-11-03/blob/main/VERIFICATION.md) · [Texto para LinkedIn, não publicado →](https://github.com/perabru/api-lab-2026-11-03/blob/main/LINKEDIN.md)
 
 ### 001 · Task API — organize tarefas sem instalar dependências
 
@@ -26,7 +34,7 @@ Crie, consulte, atualize e exclua tarefas. Combine busca, prioridade e status de
 
 [Conheça o lançamento →](announcements/001-task-api.md) · [Abra o código →](apis/001-task-api) · [Veja a documentação →](apis/001-task-api/README.md)
 
-## Teste em poucos passos
+## Teste a API de tarefas em poucos passos
 
 ```bash
 git clone https://github.com/perabru/peradev-apis.git
@@ -42,6 +50,7 @@ O código está publicado no GitHub; esta entrega é executada localmente e não
 
 | # | API | Para que serve | Tecnologia | Lançamento |
 |---|---|---|---|---|
+| D01 | [Project Shelf API](https://github.com/perabru/api-lab-2026-11-03) | Catálogo de projetos com busca, filtros e paginação | Node.js | [Conhecer](announcements/002-project-shelf.md) |
 | 001 | [Task API](apis/001-task-api) | Tarefas com CRUD, filtros, paginação e persistência | Node.js | [Conhecer](announcements/001-task-api.md) |
 
 ## Acompanhe a série
@@ -67,6 +76,6 @@ Seu apoio incentiva a continuidade e a manutenção do projeto. A contribuição
 
 Cada API resolve um problema específico, tem instruções de execução e inclui verificações de comportamento real. Segredos e dados de execução ficam fora do repositório. Consulte o [roteiro editorial](docs/editorial.md) e o [procedimento da série](docs/continuity.md).
 
-Execute `npm test` na raiz para verificar as APIs Node.js presentes. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
+Execute `npm test` na raiz para verificar a API de tarefas presente no hub. Para a Project Shelf API, clone o repositório independente e execute `npm test` nele. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
 
 **Licença MIT · Bruno Michel Pera**
