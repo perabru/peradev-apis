@@ -24,7 +24,7 @@ Catálogo local com CRUD, busca, etiquetas, ordenação, paginação por cabeça
 
 **03/11/2026 · Node.js 22+ · zero dependências externas · 11 testes HTTP aprovados**
 
-[Repositório →](https://github.com/perabru/api-lab-2026-11-03) · [README →](https://github.com/perabru/api-lab-2026-11-03/blob/main/README.md) · [Anúncio →](announcements/002-project-shelf.md) · [Evidências →](https://github.com/perabru/api-lab-2026-11-03/blob/main/VERIFICATION.md) · [Texto para LinkedIn, não publicado →](https://github.com/perabru/api-lab-2026-11-03/blob/main/LINKEDIN.md)
+[Repositório →](https://github.com/perabru/api-lab-2026-11-03) · [README →](https://github.com/perabru/api-lab-2026-11-03/blob/main/README.md) · [Anúncio →](announcements/002-project-shelf.md) · [Evidências →](https://github.com/perabru/api-lab-2026-11-03/blob/main/VERIFICATION.md) · [Post aprovado no LinkedIn →](https://www.linkedin.com/feed/update/urn:li:activity:7523340655767719936/)
 
 ### 001 · Task API — organize tarefas sem instalar dependências
 

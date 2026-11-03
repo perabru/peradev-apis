@@ -2,6 +2,8 @@
 
 ## 2026-11-03
 
+- Após autorização explícita, publicado e verificado o [post da Project Shelf API no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7523340655767719936/). A política dos próximos dias continua exigindo aprovação para publicar.
+
 - Publicada a Project Shelf API (dia 01) em [repositório independente](https://github.com/perabru/api-lab-2026-11-03), preservando a Task API 001.
 - CRUD, busca, etiquetas, ordenação e paginação Link com filtros preservados; persistência em JSON.
 - Verificação local: 11 testes HTTP aprovados, 0 falhas, Node.js 24.22.1. [Relatório](https://github.com/perabru/api-lab-2026-11-03/blob/main/VERIFICATION.md).

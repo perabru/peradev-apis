@@ -28,7 +28,7 @@ Os temas são um plano de implementação. Se uma integração exigir credenciai
 - [Project Shelf API — código e README](https://github.com/perabru/api-lab-2026-11-03)
 - [Commit publicado](https://github.com/perabru/api-lab-2026-11-03/commit/e06e6380bc826e623a0d3140fd0df0a78a0acf32)
 - [11 testes aprovados e limites da verificação](https://github.com/perabru/api-lab-2026-11-03/blob/main/VERIFICATION.md)
-- [Anúncio](https://github.com/perabru/api-lab-2026-11-03/blob/main/ANNOUNCEMENT.md) · [Texto para LinkedIn, apenas rascunho](https://github.com/perabru/api-lab-2026-11-03/blob/main/LINKEDIN.md)
+- [Anúncio](https://github.com/perabru/api-lab-2026-11-03/blob/main/ANNOUNCEMENT.md) · [Post publicado com aprovação em 03/11/2026](https://www.linkedin.com/feed/update/urn:li:activity:7523340655767719936/)
 - Melhoria de contribuição: demonstração isolada que não altera os dados do usuário, guia de contribuição e formulário de bug reproduzível.
 - Referência GitHub revisitada em 03/11/2026. Sem integração com conta GitHub ou serviço hospedado.
 

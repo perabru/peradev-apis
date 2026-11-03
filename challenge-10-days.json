@@ -22,7 +22,7 @@
       "status": "published",
       "repository_url": "https://github.com/perabru/api-lab-2026-11-03",
       "implementation_status": "implemented_and_tested",
-      "linkedin_status": "draft_prepared_not_published",
+      "linkedin_status": "published_with_user_approval",
       "api_verified": true,
       "published_on": "2026-11-03",
       "commit_sha": "e06e6380bc826e623a0d3140fd0df0a78a0acf32",
@@ -36,7 +36,9 @@
         "tests_failed": 0,
         "node_version": "24.22.1",
         "report_url": "https://github.com/perabru/api-lab-2026-11-03/blob/main/VERIFICATION.md"
-      }
+      },
+      "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523340655767719936/",
+      "linkedin_published_on": "2026-11-03"
     },
     {
       "day": 2,

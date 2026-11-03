@@ -12,6 +12,6 @@ Referência: [GitHub REST API — paginação](https://docs.github.com/en/rest/u
 
 Para experimentar, clone o repositório e rode `node examples/demo.mjs`; a demo usa dados temporários isolados. Para testar: `npm test`. Para usar seu catálogo: `npm start`.
 
-Teste, sugira uma melhoria por issue ou dê uma estrela para acompanhar. O README tem apoio voluntário por Pix; código aberto e gratuito para todos. O texto para LinkedIn foi preparado para revisão e não foi publicado.
+Teste, sugira uma melhoria por issue ou dê uma estrela para acompanhar. O README tem apoio voluntário por Pix; código aberto e gratuito para todos. O texto para LinkedIn foi aprovado pelo usuário e [publicado em 03/11/2026](https://www.linkedin.com/feed/update/urn:li:activity:7523340655767719936/).
 
 **English:** Local project catalog with CRUD, search, tags, Link pagination and JSON persistence. Eleven HTTP integration tests passed. No dependencies, GitHub account integration or hosted endpoint. Includes an isolated demo and contribution guide.

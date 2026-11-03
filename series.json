@@ -52,8 +52,10 @@
       "promotion_path": "announcements/002-project-shelf.md",
       "promotion_status": "published",
       "promotion_channel": "github",
-      "linkedin_status": "draft_prepared_not_published",
-      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-03/blob/main/LINKEDIN.md"
+      "linkedin_status": "published_with_user_approval",
+      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-03/blob/main/LINKEDIN.md",
+      "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523340655767719936/",
+      "linkedin_published_on": "2026-11-03"
     }
   ],
   "branding": {
