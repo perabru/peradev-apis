@@ -2,6 +2,9 @@
 
 ## 2026-11-04
 
+- Publicado e verificado o [post bilíngue da Order Once API no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7523692656141496320/).
+- Bruno autorizou publicação diária em português e inglês para as entregas restantes do desafio até 12/11/2026; atualizados procedimento, modelo e rotina, com prevenção de duplicatas.
+
 - Publicada a [Order Once API](https://github.com/perabru/api-lab-2026-11-04), dia 02: pedidos, centavos inteiros, replay e conflito de idempotência, com persistência conjunta de chave e pedido.
 - Verificação local: 12 testes HTTP aprovados, 0 falhas, Node.js 24.22.1. Inclui concorrência, falha de disco e reinício de processo real. [Evidência](https://github.com/perabru/api-lab-2026-11-04/blob/main/VERIFICATION.md).
 - README retrô, apoio voluntário por Pix, guia de contribuição e demo isolada de retries com asserções.

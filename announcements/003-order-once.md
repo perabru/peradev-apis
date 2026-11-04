@@ -12,6 +12,6 @@ Clone o repositório e execute `node examples/retry-demo.mjs` para ver criação
 
 Referência: [Stripe — idempotent requests](https://docs.stripe.com/api/idempotent_requests), revisitada em 04/11/2026. A implementação é independente e seu contrato tem limites próprios; não processa pagamentos, não utiliza conta Stripe e não inclui hospedagem.
 
-A melhoria de contribuição é uma demo com asserções reproduzíveis e um formulário de bug voltado a retries. Teste, sugira casos de borda por issue ou dê uma estrela para acompanhar. O apoio por Pix é voluntário; o código permanece aberto e gratuito. O texto do LinkedIn foi preparado e não foi publicado.
+A melhoria de contribuição é uma demo com asserções reproduzíveis e um formulário de bug voltado a retries. Teste, sugira casos de borda por issue ou dê uma estrela para acompanhar. O apoio por Pix é voluntário; o código permanece aberto e gratuito. O texto bilíngue foi [publicado no LinkedIn em 04/11/2026](https://www.linkedin.com/feed/update/urn:li:activity:7523692656141496320/), após autorização do usuário.
 
 **English:** Local Node.js order API with integer-cent totals and persistent idempotency keys. Response replay, parameter conflict detection and twelve passing HTTP tests, including a process restart. No payments, dependencies or hosted endpoint. Try the isolated retry demo and contribute an edge case.

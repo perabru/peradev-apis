@@ -76,8 +76,14 @@
       "promotion_path": "announcements/003-order-once.md",
       "promotion_status": "published",
       "promotion_channel": "github",
-      "linkedin_status": "draft_prepared_not_published",
-      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-04/blob/main/LINKEDIN.md"
+      "linkedin_status": "published_with_user_approval",
+      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-04/blob/main/LINKEDIN.md",
+      "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523692656141496320/",
+      "linkedin_published_on": "2026-11-04",
+      "linkedin_languages": [
+        "pt-BR",
+        "en"
+      ]
     }
   ],
   "branding": {
@@ -92,13 +98,19 @@
   },
   "workflow": {
     "platforms": [
-      "github"
+      "github",
+      "linkedin"
     ],
     "promotion_channel": "github",
     "instagram_cancelled_on": "2026-11-02",
     "repository_strategy": "one_repository_per_day",
     "challenge_manifest": "challenge-10-days.json",
-    "linkedin": "draft_text_only"
+    "linkedin": "publish_bilingual_daily_authorized_2026-11-04",
+    "linkedin_profile": "https://www.linkedin.com/in/brunopera00/",
+    "linkedin_languages": [
+      "pt-BR",
+      "en"
+    ]
   },
   "challenge": {
     "start_date": "2026-11-03",

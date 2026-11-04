@@ -7,7 +7,7 @@
   "run_time": "07:00",
   "scheduled_runs": 10,
   "repository_strategy": "one_prepared_repository_per_day",
-  "linkedin_policy": "prepare_text_only; publishing requires a separate explicit user request",
+  "linkedin_policy": "publish_one_bilingual_post_per_verified_daily_api; authorized_by_user_on_2026-11-04; end_2026-11-12",
   "pix_key": "bruno.pera@unifesp.br",
   "days": [
     {
@@ -52,7 +52,7 @@
       "status": "published",
       "repository_url": "https://github.com/perabru/api-lab-2026-11-04",
       "implementation_status": "implemented_and_tested",
-      "linkedin_status": "draft_prepared_not_published",
+      "linkedin_status": "published_with_user_approval",
       "api_verified": true,
       "published_on": "2026-11-04",
       "commit_sha": "f63b69a1f3ac60e5685be0e7629006a8a78ec254",
@@ -66,7 +66,13 @@
         "tests_failed": 0,
         "node_version": "24.22.1",
         "report_url": "https://github.com/perabru/api-lab-2026-11-04/blob/main/VERIFICATION.md"
-      }
+      },
+      "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523692656141496320/",
+      "linkedin_published_on": "2026-11-04",
+      "linkedin_languages": [
+        "pt-BR",
+        "en"
+      ]
     },
     {
       "day": 3,
@@ -194,5 +200,17 @@
     "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523032339095146496/",
     "account": "Bruno Pera",
     "status": "published_and_verified"
+  },
+  "linkedin_authorization": {
+    "authorized_on": "2026-11-04",
+    "profile": "https://www.linkedin.com/in/brunopera00/",
+    "languages": [
+      "pt-BR",
+      "en"
+    ],
+    "format": "one_post_with_both_languages",
+    "scope": "remaining_deliveries_of_this_10_day_challenge",
+    "end_date": "2026-11-12",
+    "prevent_duplicates": true
   }
 }

@@ -1,6 +1,6 @@
 # PeraDev APIs · Direção editorial
 
-Publicação do desafio: **um repositório GitHub por dia**, conforme [o calendário de dez dias](10-days.md). O repositório `perabru/peradev-apis` é o catálogo e o controle. Preparar um texto para LinkedIn em cada entrega; a publicação na rede social depende de solicitação explícita do usuário.
+Publicação do desafio: **um repositório GitHub por dia**, conforme [o calendário de dez dias](10-days.md). O repositório `perabru/peradev-apis` é o catálogo e o controle. Publicar um post bilíngue (português e inglês) por entrega verificada no perfil Bruno Pera. Autorizado explicitamente em 04/11/2026 para os dias restantes deste desafio, até 12/11/2026. Evitar duplicatas e confirmar permalink real.
 
 Identidade: anos 70 com amarelo `#FFD447`, azul elétrico `#247BFF`, roxo neon `#A847FF`, fundo roxo profundo `#160E2B` e branco quente `#FFF4CE`. Use títulos retrô legíveis e texto monoespaçado para código. Banner: [github-banner.svg](../brand/github-banner.svg). Avatar: [peradev-avatar.png](../brand/peradev-avatar.png).
 

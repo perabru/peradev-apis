@@ -24,7 +24,7 @@ Pedidos locais com centavos inteiros, chaves de idempotência persistentes, repl
 
 **04/11/2026 · Node.js 22+ · zero dependências externas · 12 testes HTTP aprovados**
 
-[Repositório →](https://github.com/perabru/api-lab-2026-11-04) · [README →](https://github.com/perabru/api-lab-2026-11-04/blob/main/README.md) · [Anúncio →](announcements/003-order-once.md) · [Evidências →](https://github.com/perabru/api-lab-2026-11-04/blob/main/VERIFICATION.md) · [Texto para LinkedIn, apenas rascunho →](https://github.com/perabru/api-lab-2026-11-04/blob/main/LINKEDIN.md)
+[Repositório →](https://github.com/perabru/api-lab-2026-11-04) · [README →](https://github.com/perabru/api-lab-2026-11-04/blob/main/README.md) · [Anúncio →](announcements/003-order-once.md) · [Evidências →](https://github.com/perabru/api-lab-2026-11-04/blob/main/VERIFICATION.md) · [Post bilíngue publicado no LinkedIn →](https://www.linkedin.com/feed/update/urn:li:activity:7523692656141496320/)
 
 ### Dia 01 · Project Shelf API — encontre seus projetos
 

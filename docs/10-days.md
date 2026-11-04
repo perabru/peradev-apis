@@ -28,7 +28,7 @@ Os temas são um plano de implementação. Se uma integração exigir credenciai
 - [Order Once API — código e README](https://github.com/perabru/api-lab-2026-11-04)
 - [Commit publicado](https://github.com/perabru/api-lab-2026-11-04/commit/f63b69a1f3ac60e5685be0e7629006a8a78ec254)
 - [12 testes aprovados e alcance da verificação](https://github.com/perabru/api-lab-2026-11-04/blob/main/VERIFICATION.md)
-- [Anúncio](https://github.com/perabru/api-lab-2026-11-04/blob/main/ANNOUNCEMENT.md) · [LinkedIn: rascunho para revisão](https://github.com/perabru/api-lab-2026-11-04/blob/main/LINKEDIN.md)
+- [Anúncio](https://github.com/perabru/api-lab-2026-11-04/blob/main/ANNOUNCEMENT.md) · [Post bilíngue publicado no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7523692656141496320/)
 - Melhoria de contribuição: demo isolada que verifica replay e conflito; formulário de bug inclui troca de chave e reinício.
 - Referência Stripe revisitada em 04/11/2026: idempotência e diferenças entre v1 e v2. Implementação local própria, sem pagamentos.
 
@@ -82,7 +82,7 @@ As referências foram escolhidas como APIs conhecidas e exemplos de desenho de c
 3. Testes executados e exemplos reproduzíveis.
 4. README em português com execução, rotas, respostas, limitações, referência oficial e resumo curto em inglês.
 5. Seção de colaboração destacada, com o Pix autorizado e apoio opcional.
-6. Arquivo `LINKEDIN.md` com um texto profissional para revisão. Gerar esse texto não significa publicá-lo automaticamente no LinkedIn.
+6. Arquivo `LINKEDIN.md` com o post em português e inglês; publicação diária no perfil Bruno Pera autorizada em 04/11/2026 para as entregas restantes até 12/11/2026. Verificar e registrar o permalink, evitando duplicatas.
 7. Atualização do [manifesto da sequência](../challenge-10-days.json) e do catálogo.
 
 ## Apoio ao projeto
