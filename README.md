@@ -69,7 +69,7 @@ O código está publicado no GitHub; esta entrega é executada localmente e não
 - **[Abra uma issue](https://github.com/perabru/peradev-apis/issues/new)** para sugerir a próxima API ou relatar um problema.
 - **Faça um fork e contribua:** melhorias de código, testes e documentação são bem-vindas.
 
-A divulgação de cada API aparece aqui e em [Lançamentos](announcements/README.md). O [histórico de mudanças](CHANGELOG.md) e o [registro da série](series.json) mostram o que já foi entregue. A rotina de produção e divulgação acontece exclusivamente no GitHub.
+A divulgação de cada API aparece aqui e em [Lançamentos](announcements/README.md). O [histórico de mudanças](CHANGELOG.md) e o [registro da série](series.json) mostram o que já foi entregue. O código e os anúncios ficam no GitHub. Desde a autorização de 04/11/2026, cada nova entrega verificada também recebe um post no LinkedIn em português e inglês, até o fim deste desafio em 12/11/2026.
 
 ## Apoie o PeraDev
 
