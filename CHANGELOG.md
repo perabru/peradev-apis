@@ -1,5 +1,12 @@
 # Histórico de mudanças
 
+## 2026-11-04
+
+- Publicada a [Order Once API](https://github.com/perabru/api-lab-2026-11-04), dia 02: pedidos, centavos inteiros, replay e conflito de idempotência, com persistência conjunta de chave e pedido.
+- Verificação local: 12 testes HTTP aprovados, 0 falhas, Node.js 24.22.1. Inclui concorrência, falha de disco e reinício de processo real. [Evidência](https://github.com/perabru/api-lab-2026-11-04/blob/main/VERIFICATION.md).
+- README retrô, apoio voluntário por Pix, guia de contribuição e demo isolada de retries com asserções.
+- Anúncio publicado no GitHub e LINKEDIN.md preparado como rascunho, sem publicação automática.
+
 ## 2026-11-03
 
 - Após autorização explícita, publicado e verificado o [post da Project Shelf API no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7523340655767719936/). A política dos próximos dias continua exigindo aprovação para publicar.

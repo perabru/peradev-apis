@@ -12,11 +12,19 @@ Projetos de Bruno Michel Pera com documentação em português, exemplos execut�
 
 **De 03 a 12/11/2026, com início diário às 07h (Brasília).** Cada dia tem um repositório independente, uma referência de API conhecida, implementação própria, testes, README e um texto para LinkedIn.
 
-O dia 01 está publicado e verificado: **Project Shelf API, 11 testes aprovados**. Os outros nove repositórios estão preparados; suas APIs ainda serão desenvolvidas e verificadas nas datas previstas.
+Os dias 01 e 02 estão publicados e verificados: **Project Shelf API (11 testes) e Order Once API (12 testes)**. Os oito repositórios seguintes estão preparados; suas APIs ainda serão desenvolvidas e verificadas nas datas previstas.
 
 [Ver calendário, referências e repositórios →](docs/10-days.md)
 
 ## Em destaque
+
+### Dia 02 · Order Once API — repita sem duplicar
+
+Pedidos locais com centavos inteiros, chaves de idempotência persistentes, replay e detecção de conflito. Referência de estudo: documentação de idempotência do Stripe; sem processamento de pagamentos.
+
+**04/11/2026 · Node.js 22+ · zero dependências externas · 12 testes HTTP aprovados**
+
+[Repositório →](https://github.com/perabru/api-lab-2026-11-04) · [README →](https://github.com/perabru/api-lab-2026-11-04/blob/main/README.md) · [Anúncio →](announcements/003-order-once.md) · [Evidências →](https://github.com/perabru/api-lab-2026-11-04/blob/main/VERIFICATION.md) · [Texto para LinkedIn, apenas rascunho →](https://github.com/perabru/api-lab-2026-11-04/blob/main/LINKEDIN.md)
 
 ### Dia 01 · Project Shelf API — encontre seus projetos
 
@@ -50,6 +58,7 @@ O código está publicado no GitHub; esta entrega é executada localmente e não
 
 | # | API | Para que serve | Tecnologia | Lançamento |
 |---|---|---|---|---|
+| D02 | [Order Once API](https://github.com/perabru/api-lab-2026-11-04) | Pedidos, centavos e idempotência persistente | Node.js | [Conhecer](announcements/003-order-once.md) |
 | D01 | [Project Shelf API](https://github.com/perabru/api-lab-2026-11-03) | Catálogo de projetos com busca, filtros e paginação | Node.js | [Conhecer](announcements/002-project-shelf.md) |
 | 001 | [Task API](apis/001-task-api) | Tarefas com CRUD, filtros, paginação e persistência | Node.js | [Conhecer](announcements/001-task-api.md) |
 
@@ -76,6 +85,6 @@ Seu apoio incentiva a continuidade e a manutenção do projeto. A contribuição
 
 Cada API resolve um problema específico, tem instruções de execução e inclui verificações de comportamento real. Segredos e dados de execução ficam fora do repositório. Consulte o [roteiro editorial](docs/editorial.md) e o [procedimento da série](docs/continuity.md).
 
-Execute `npm test` na raiz para verificar a API de tarefas presente no hub. Para a Project Shelf API, clone o repositório independente e execute `npm test` nele. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
+Execute `npm test` na raiz para verificar a API de tarefas presente no hub. Para Project Shelf e Order Once, clone o respectivo repositório independente e execute `npm test` nele. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
 
 **Licença MIT · Bruno Michel Pera**

@@ -56,6 +56,28 @@
       "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-03/blob/main/LINKEDIN.md",
       "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523340655767719936/",
       "linkedin_published_on": "2026-11-03"
+    },
+    {
+      "number": 3,
+      "challenge_day": 2,
+      "slug": "order-once-api",
+      "date": "2026-11-04",
+      "repository": "perabru/api-lab-2026-11-04",
+      "code_url": "https://github.com/perabru/api-lab-2026-11-04",
+      "github_status": "published",
+      "verification": {
+        "command": "npm test",
+        "tests_passed": 12,
+        "tests_failed": 0,
+        "node_version": "24.22.1",
+        "commit_sha": "f63b69a1f3ac60e5685be0e7629006a8a78ec254",
+        "report_url": "https://github.com/perabru/api-lab-2026-11-04/blob/main/VERIFICATION.md"
+      },
+      "promotion_path": "announcements/003-order-once.md",
+      "promotion_status": "published",
+      "promotion_channel": "github",
+      "linkedin_status": "draft_prepared_not_published",
+      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-04/blob/main/LINKEDIN.md"
     }
   ],
   "branding": {
@@ -85,6 +107,6 @@
     "timezone": "America/Sao_Paulo",
     "scheduled_runs": 10,
     "status": "in_progress",
-    "completed_days": 1
+    "completed_days": 2
   }
 }

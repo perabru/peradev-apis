@@ -4,14 +4,14 @@
 
 Cada data tem seu próprio repositório público. Os dez repositórios foram preparados antecipadamente com README e apoio voluntário por Pix. Isso permite que a rotina agendada publique os arquivos pela conexão GitHub, sem depender da criação de um repositório pelo navegador a cada manhã.
 
-> **Dia 01 publicado e testado em 03/11/2026:** Project Shelf API, 11 testes aprovados. As nove APIs seguintes ainda serão implementadas nas respectivas datas; seus repositórios estão preparados.
+> **Dois dias publicados e testados:** Project Shelf API em 03/11/2026 (11 testes) e Order Once API em 04/11/2026 (12 testes). As oito APIs seguintes ainda serão implementadas nas respectivas datas.
 
 ## Calendário e referências
 
 | Dia | Data | Repositório e tema planejado | Referência | Estado atual |
 |---|---|---|---|---|
 | 01 | 03/11/2026 | [Catálogo de projetos com busca e paginação](https://github.com/perabru/api-lab-2026-11-03) | GitHub REST API | Publicado; 11 testes aprovados |
-| 02 | 04/11/2026 | [Pedidos com idempotência e valores em centavos](https://github.com/perabru/api-lab-2026-11-04) | Stripe API | Preparado; API agendada |
+| 02 | 04/11/2026 | [Pedidos com idempotência e valores em centavos](https://github.com/perabru/api-lab-2026-11-04) | Stripe API | Publicado; 12 testes aprovados |
 | 03 | 05/11/2026 | [Quadros Kanban com colunas e cartões](https://github.com/perabru/api-lab-2026-11-05) | Trello REST API | Preparado; API agendada |
 | 04 | 06/11/2026 | [Publicações e comentários com persistência real](https://github.com/perabru/api-lab-2026-11-06) | JSONPlaceholder | Preparado; API agendada |
 | 05 | 07/11/2026 | [Catálogo de criaturas fictícias com tipos e habilidades](https://github.com/perabru/api-lab-2026-11-07) | PokéAPI | Preparado; API agendada |
@@ -22,6 +22,15 @@ Cada data tem seu próprio repositório público. Os dez repositórios foram pre
 | 10 | 12/11/2026 | [Biblioteca com catálogo e empréstimos](https://github.com/perabru/api-lab-2026-11-12) | Open Library APIs | Preparado; API agendada |
 
 Os temas são um plano de implementação. Se uma integração exigir credenciais indisponíveis, tiver limites incompatíveis ou mudar de versão, a implementação pode ser ajustada mantendo um caso de uso útil, a referência e a transparência sobre os limites.
+
+## Evidência da entrega de 04/11/2026
+
+- [Order Once API — código e README](https://github.com/perabru/api-lab-2026-11-04)
+- [Commit publicado](https://github.com/perabru/api-lab-2026-11-04/commit/f63b69a1f3ac60e5685be0e7629006a8a78ec254)
+- [12 testes aprovados e alcance da verificação](https://github.com/perabru/api-lab-2026-11-04/blob/main/VERIFICATION.md)
+- [Anúncio](https://github.com/perabru/api-lab-2026-11-04/blob/main/ANNOUNCEMENT.md) · [LinkedIn: rascunho para revisão](https://github.com/perabru/api-lab-2026-11-04/blob/main/LINKEDIN.md)
+- Melhoria de contribuição: demo isolada que verifica replay e conflito; formulário de bug inclui troca de chave e reinício.
+- Referência Stripe revisitada em 04/11/2026: idempotência e diferenças entre v1 e v2. Implementação local própria, sem pagamentos.
 
 ## Evidência da entrega de 03/11/2026
 
