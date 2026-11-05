@@ -12,11 +12,19 @@ Projetos de Bruno Michel Pera com documentação em português, exemplos execut�
 
 **De 03 a 12/11/2026, com início diário às 07h (Brasília).** Cada dia tem um repositório independente, uma referência de API conhecida, implementação própria, testes, README e um texto para LinkedIn.
 
-Os dias 01 e 02 estão publicados e verificados: **Project Shelf API (11 testes) e Order Once API (12 testes)**. Os oito repositórios seguintes estão preparados; suas APIs ainda serão desenvolvidas e verificadas nas datas previstas.
+Os dias 01, 02 e 03 estão publicados e verificados: **Project Shelf API (11 testes), Order Once API (12 testes) e Board Lane API (12 testes)**. Os sete repositórios seguintes estão preparados; suas APIs ainda serão desenvolvidas e verificadas nas datas previstas.
 
 [Ver calendário, referências e repositórios →](docs/10-days.md)
 
 ## Em destaque
+
+### Dia 03 · Board Lane API — cada cartão em seu lugar
+
+Kanban local com quadros, colunas, cartões editáveis e movimentação dentro do mesmo quadro, mantendo a ordem e os vínculos. Persistência JSON e bloqueio de exclusões de pais ocupados. Referência de estudo: [Trello REST API](https://developer.atlassian.com/cloud/trello/rest/), consultada em 05/11/2026; implementação própria, sem integração externa.
+
+**05/11/2026 · Node.js 22+ · zero dependências externas · publicado · 12 testes HTTP aprovados**
+
+[Repositório →](https://github.com/perabru/api-lab-2026-11-05) · [README →](https://github.com/perabru/api-lab-2026-11-05/blob/main/README.md) · [Anúncio →](announcements/004-board-lane.md) · [Evidências →](https://github.com/perabru/api-lab-2026-11-05/blob/main/VERIFICATION.md) · [Post bilíngue publicado no LinkedIn →](https://www.linkedin.com/feed/update/urn:li:activity:7524049095754428417/)
 
 ### Dia 02 · Order Once API — repita sem duplicar
 
@@ -58,6 +66,7 @@ O código está publicado no GitHub; esta entrega é executada localmente e não
 
 | # | API | Para que serve | Tecnologia | Lançamento |
 |---|---|---|---|---|
+| D03 | [Board Lane API](https://github.com/perabru/api-lab-2026-11-05) | Kanban com movimentos, ordem e vínculos persistentes | Node.js | [Conhecer](announcements/004-board-lane.md) |
 | D02 | [Order Once API](https://github.com/perabru/api-lab-2026-11-04) | Pedidos, centavos e idempotência persistente | Node.js | [Conhecer](announcements/003-order-once.md) |
 | D01 | [Project Shelf API](https://github.com/perabru/api-lab-2026-11-03) | Catálogo de projetos com busca, filtros e paginação | Node.js | [Conhecer](announcements/002-project-shelf.md) |
 | 001 | [Task API](apis/001-task-api) | Tarefas com CRUD, filtros, paginação e persistência | Node.js | [Conhecer](announcements/001-task-api.md) |
@@ -85,6 +94,6 @@ Seu apoio incentiva a continuidade e a manutenção do projeto. A contribuição
 
 Cada API resolve um problema específico, tem instruções de execução e inclui verificações de comportamento real. Segredos e dados de execução ficam fora do repositório. Consulte o [roteiro editorial](docs/editorial.md) e o [procedimento da série](docs/continuity.md).
 
-Execute `npm test` na raiz para verificar a API de tarefas presente no hub. Para Project Shelf e Order Once, clone o respectivo repositório independente e execute `npm test` nele. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
+Execute `npm test` na raiz para verificar a API de tarefas presente no hub. Para Project Shelf, Order Once e Board Lane, clone o respectivo repositório independente e execute `npm test` nele. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
 
 **Licença MIT · Bruno Michel Pera**

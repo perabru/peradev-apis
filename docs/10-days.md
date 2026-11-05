@@ -4,7 +4,7 @@
 
 Cada data tem seu próprio repositório público. Os dez repositórios foram preparados antecipadamente com README e apoio voluntário por Pix. Isso permite que a rotina agendada publique os arquivos pela conexão GitHub, sem depender da criação de um repositório pelo navegador a cada manhã.
 
-> **Dois dias publicados e testados:** Project Shelf API em 03/11/2026 (11 testes) e Order Once API em 04/11/2026 (12 testes). As oito APIs seguintes ainda serão implementadas nas respectivas datas.
+> **Três dias publicados e testados:** Project Shelf API em 03/11/2026 (11 testes), Order Once API em 04/11/2026 (12 testes) e Board Lane API em 05/11/2026 (12 testes). As sete APIs seguintes ainda serão implementadas nas respectivas datas.
 
 ## Calendário e referências
 
@@ -12,7 +12,7 @@ Cada data tem seu próprio repositório público. Os dez repositórios foram pre
 |---|---|---|---|---|
 | 01 | 03/11/2026 | [Catálogo de projetos com busca e paginação](https://github.com/perabru/api-lab-2026-11-03) | GitHub REST API | Publicado; 11 testes aprovados |
 | 02 | 04/11/2026 | [Pedidos com idempotência e valores em centavos](https://github.com/perabru/api-lab-2026-11-04) | Stripe API | Publicado; 12 testes aprovados |
-| 03 | 05/11/2026 | [Quadros Kanban com colunas e cartões](https://github.com/perabru/api-lab-2026-11-05) | Trello REST API | Preparado; API agendada |
+| 03 | 05/11/2026 | [Quadros Kanban com colunas e cartões](https://github.com/perabru/api-lab-2026-11-05) | Trello REST API | Publicado; 12 testes aprovados |
 | 04 | 06/11/2026 | [Publicações e comentários com persistência real](https://github.com/perabru/api-lab-2026-11-06) | JSONPlaceholder | Preparado; API agendada |
 | 05 | 07/11/2026 | [Catálogo de criaturas fictícias com tipos e habilidades](https://github.com/perabru/api-lab-2026-11-07) | PokéAPI | Preparado; API agendada |
 | 06 | 08/11/2026 | [Consulta de CEP com validação e cache](https://github.com/perabru/api-lab-2026-11-08) | ViaCEP | Preparado; API agendada |
@@ -22,6 +22,15 @@ Cada data tem seu próprio repositório público. Os dez repositórios foram pre
 | 10 | 12/11/2026 | [Biblioteca com catálogo e empréstimos](https://github.com/perabru/api-lab-2026-11-12) | Open Library APIs | Preparado; API agendada |
 
 Os temas são um plano de implementação. Se uma integração exigir credenciais indisponíveis, tiver limites incompatíveis ou mudar de versão, a implementação pode ser ajustada mantendo um caso de uso útil, a referência e a transparência sobre os limites.
+
+## Evidência da entrega de 05/11/2026
+
+- [Board Lane API — código e README](https://github.com/perabru/api-lab-2026-11-05)
+- [Commit da API publicada](https://github.com/perabru/api-lab-2026-11-05/commit/423a0c387c133c7454b5dbacd65869e106876cb5)
+- [12 testes aprovados e alcance da verificação](https://github.com/perabru/api-lab-2026-11-05/blob/main/VERIFICATION.md)
+- [Anúncio](https://github.com/perabru/api-lab-2026-11-05/blob/main/ANNOUNCEMENT.md) · [Post bilíngue publicado no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7524049095754428417/)
+- Melhoria de contribuição: demo isolada com asserções de ordem/vínculos e formulário de bug com estado anterior e posição desejada.
+- Referência oficial Trello revisitada em 05/11/2026: Cards e Lists. Contrato próprio, dados locais, sem conta Trello e sem endpoint hospedado.
 
 ## Evidência da entrega de 04/11/2026
 
