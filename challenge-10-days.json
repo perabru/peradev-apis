@@ -118,11 +118,31 @@
       "concept": "Recursos aninhados e filtros; diferenciar a referência de dados fictícios da persistência efetiva da implementação própria.",
       "repo_name": "api-lab-2026-11-06",
       "repo_full_name": "perabru/api-lab-2026-11-06",
-      "status": "repository_prepared",
+      "status": "published",
       "repository_url": "https://github.com/perabru/api-lab-2026-11-06",
-      "implementation_status": "not_started",
-      "linkedin_status": "not_prepared",
-      "api_verified": false
+      "implementation_status": "implemented_and_tested",
+      "linkedin_status": "published_with_user_approval",
+      "api_verified": true,
+      "api_name": "Thread Notes API",
+      "published_on": "2026-11-06",
+      "commit_sha": "0fb95b2fe56b61218d08498d151689398694b5bd",
+      "readme_url": "https://github.com/perabru/api-lab-2026-11-06/blob/main/README.md",
+      "announcement_url": "https://github.com/perabru/api-lab-2026-11-06/blob/main/ANNOUNCEMENT.md",
+      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-06/blob/main/LINKEDIN.md",
+      "verification": {
+        "command": "python -m unittest discover -s tests -v",
+        "tests_passed": 12,
+        "tests_failed": 0,
+        "python_version": "3.12.14",
+        "report_url": "https://github.com/perabru/api-lab-2026-11-06/blob/main/VERIFICATION.md"
+      },
+      "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7524412593826951168/",
+      "linkedin_published_on": "2026-11-06",
+      "linkedin_languages": [
+        "pt-BR",
+        "en"
+      ],
+      "linkedin_verified_at": "2026-11-06T10:10:02Z"
     },
     {
       "day": 5,

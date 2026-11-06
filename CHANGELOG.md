@@ -1,5 +1,14 @@
 # Histórico de mudanças
 
+## 2026-11-06
+
+- Publicada a [Thread Notes API](https://github.com/perabru/api-lab-2026-11-06), dia 04: publicações e comentários, rotas aninhadas, filtros combinados, paginação, SQLite e exclusão protegida de pais ocupados.
+- Executados 12 testes HTTP: todos aprovados, 0 falhas/erros, Python 3.12.14. Inclui concorrência, rollback e reinício real. Demo executada com asserções. [Verificação](https://github.com/perabru/api-lab-2026-11-06/blob/main/VERIFICATION.md).
+- Referência oficial JSONPlaceholder consultada em 06/11/2026. Implementação própria com persistência local, sem integração externa ou endpoint hospedado.
+- README retrô com banner SVG acessível e apoio voluntário por Pix, guia e formulário de contribuição; demo temporária que não altera dados habituais.
+- [Post bilíngue publicado e confirmado no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7524412593826951168/), sem duplicata; URL/data registradas no repositório do dia e nos controles.
+- Catálogo e destaque atualizados: quatro dias publicados/testados e seis preparados para suas datas.
+
 ## 2026-11-05
 
 - Publicada a [Board Lane API](https://github.com/perabru/api-lab-2026-11-05), dia 03: quadros, colunas, cartões editáveis, movimentação com ordem contígua e validação de vínculos, com persistência JSON.

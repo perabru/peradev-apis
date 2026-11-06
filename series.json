@@ -116,6 +116,38 @@
         "en"
       ],
       "linkedin_verified_at": "2026-11-05T10:05:21Z"
+    },
+    {
+      "number": 5,
+      "challenge_day": 4,
+      "slug": "thread-notes-api",
+      "date": "2026-11-06",
+      "repository": "perabru/api-lab-2026-11-06",
+      "code_url": "https://github.com/perabru/api-lab-2026-11-06",
+      "github_status": "published",
+      "api_verified": true,
+      "reference": "JSONPlaceholder",
+      "reference_url": "https://jsonplaceholder.typicode.com/",
+      "verification": {
+        "command": "python -m unittest discover -s tests -v",
+        "tests_passed": 12,
+        "tests_failed": 0,
+        "python_version": "3.12.14",
+        "report_url": "https://github.com/perabru/api-lab-2026-11-06/blob/main/VERIFICATION.md",
+        "commit_sha": "0fb95b2fe56b61218d08498d151689398694b5bd"
+      },
+      "promotion_path": "announcements/005-thread-notes.md",
+      "promotion_status": "published",
+      "promotion_channel": "github",
+      "linkedin_status": "published_with_user_approval",
+      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-06/blob/main/LINKEDIN.md",
+      "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7524412593826951168/",
+      "linkedin_published_on": "2026-11-06",
+      "linkedin_languages": [
+        "pt-BR",
+        "en"
+      ],
+      "linkedin_verified_at": "2026-11-06T10:10:02Z"
     }
   ],
   "branding": {
@@ -151,6 +183,6 @@
     "timezone": "America/Sao_Paulo",
     "scheduled_runs": 10,
     "status": "in_progress",
-    "completed_days": 3
+    "completed_days": 4
   }
 }

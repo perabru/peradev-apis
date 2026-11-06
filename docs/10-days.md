@@ -4,7 +4,7 @@
 
 Cada data tem seu próprio repositório público. Os dez repositórios foram preparados antecipadamente com README e apoio voluntário por Pix. Isso permite que a rotina agendada publique os arquivos pela conexão GitHub, sem depender da criação de um repositório pelo navegador a cada manhã.
 
-> **Três dias publicados e testados:** Project Shelf API em 03/11/2026 (11 testes), Order Once API em 04/11/2026 (12 testes) e Board Lane API em 05/11/2026 (12 testes). As sete APIs seguintes ainda serão implementadas nas respectivas datas.
+> **Quatro dias publicados e testados:** Project Shelf (03/11, 11 testes), Order Once (04/11, 12 testes), Board Lane (05/11, 12 testes) e Thread Notes (06/11, 12 testes). As seis APIs seguintes ainda serão implementadas nas respectivas datas.
 
 ## Calendário e referências
 
@@ -13,7 +13,7 @@ Cada data tem seu próprio repositório público. Os dez repositórios foram pre
 | 01 | 03/11/2026 | [Catálogo de projetos com busca e paginação](https://github.com/perabru/api-lab-2026-11-03) | GitHub REST API | Publicado; 11 testes aprovados |
 | 02 | 04/11/2026 | [Pedidos com idempotência e valores em centavos](https://github.com/perabru/api-lab-2026-11-04) | Stripe API | Publicado; 12 testes aprovados |
 | 03 | 05/11/2026 | [Quadros Kanban com colunas e cartões](https://github.com/perabru/api-lab-2026-11-05) | Trello REST API | Publicado; 12 testes aprovados |
-| 04 | 06/11/2026 | [Publicações e comentários com persistência real](https://github.com/perabru/api-lab-2026-11-06) | JSONPlaceholder | Preparado; API agendada |
+| 04 | 06/11/2026 | [Publicações e comentários com persistência real](https://github.com/perabru/api-lab-2026-11-06) | JSONPlaceholder | Publicado; 12 testes aprovados |
 | 05 | 07/11/2026 | [Catálogo de criaturas fictícias com tipos e habilidades](https://github.com/perabru/api-lab-2026-11-07) | PokéAPI | Preparado; API agendada |
 | 06 | 08/11/2026 | [Consulta de CEP com validação e cache](https://github.com/perabru/api-lab-2026-11-08) | ViaCEP | Preparado; API agendada |
 | 07 | 09/11/2026 | [Clima normalizado com cache e unidades explícitas](https://github.com/perabru/api-lab-2026-11-09) | Open-Meteo | Preparado; API agendada |
@@ -22,6 +22,14 @@ Cada data tem seu próprio repositório público. Os dez repositórios foram pre
 | 10 | 12/11/2026 | [Biblioteca com catálogo e empréstimos](https://github.com/perabru/api-lab-2026-11-12) | Open Library APIs | Preparado; API agendada |
 
 Os temas são um plano de implementação. Se uma integração exigir credenciais indisponíveis, tiver limites incompatíveis ou mudar de versão, a implementação pode ser ajustada mantendo um caso de uso útil, a referência e a transparência sobre os limites.
+
+## Evidência da entrega de 06/11/2026
+
+- [Thread Notes API — código e README](https://github.com/perabru/api-lab-2026-11-06) · [Commit da implementação](https://github.com/perabru/api-lab-2026-11-06/commit/0fb95b2fe56b61218d08498d151689398694b5bd)
+- [12 testes HTTP aprovados; comandos e limites](https://github.com/perabru/api-lab-2026-11-06/blob/main/VERIFICATION.md)
+- [Anúncio](https://github.com/perabru/api-lab-2026-11-06/blob/main/ANNOUNCEMENT.md) · [Post bilíngue publicado no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7524412593826951168/)
+- Melhoria: demo HTTP isolada e formulário que solicita rota, filtros e estado inicial.
+- JSONPlaceholder consultado em 06/11/2026: recursos aninhados, filtros e alterações simuladas na referência. A implementação própria persiste dados locais em SQLite, sem consultar o serviço ou hospedar endpoint.
 
 ## Evidência da entrega de 05/11/2026
 
