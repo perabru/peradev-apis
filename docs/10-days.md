@@ -4,7 +4,7 @@
 
 Cada data tem seu próprio repositório público. Os dez repositórios foram preparados antecipadamente com README e apoio voluntário por Pix. Isso permite que a rotina agendada publique os arquivos pela conexão GitHub, sem depender da criação de um repositório pelo navegador a cada manhã.
 
-> **Quatro dias publicados e testados:** Project Shelf (03/11, 11 testes), Order Once (04/11, 12 testes), Board Lane (05/11, 12 testes) e Thread Notes (06/11, 12 testes). As seis APIs seguintes ainda serão implementadas nas respectivas datas.
+> **Cinco dias publicados e testados:** Project Shelf (03/11, 11 testes), Order Once (04/11, 12 testes), Board Lane (05/11, 12 testes), Thread Notes (06/11, 12 testes) e Fable Atlas (07/11, 10 testes). As cinco APIs seguintes ainda serão implementadas nas respectivas datas.
 
 ## Calendário e referências
 
@@ -14,7 +14,7 @@ Cada data tem seu próprio repositório público. Os dez repositórios foram pre
 | 02 | 04/11/2026 | [Pedidos com idempotência e valores em centavos](https://github.com/perabru/api-lab-2026-11-04) | Stripe API | Publicado; 12 testes aprovados |
 | 03 | 05/11/2026 | [Quadros Kanban com colunas e cartões](https://github.com/perabru/api-lab-2026-11-05) | Trello REST API | Publicado; 12 testes aprovados |
 | 04 | 06/11/2026 | [Publicações e comentários com persistência real](https://github.com/perabru/api-lab-2026-11-06) | JSONPlaceholder | Publicado; 12 testes aprovados |
-| 05 | 07/11/2026 | [Catálogo de criaturas fictícias com tipos e habilidades](https://github.com/perabru/api-lab-2026-11-07) | PokéAPI | Preparado; API agendada |
+| 05 | 07/11/2026 | [Catálogo de criaturas fictícias com tipos e habilidades](https://github.com/perabru/api-lab-2026-11-07) | PokéAPI | Publicado; 10 testes aprovados |
 | 06 | 08/11/2026 | [Consulta de CEP com validação e cache](https://github.com/perabru/api-lab-2026-11-08) | ViaCEP | Preparado; API agendada |
 | 07 | 09/11/2026 | [Clima normalizado com cache e unidades explícitas](https://github.com/perabru/api-lab-2026-11-09) | Open-Meteo | Preparado; API agendada |
 | 08 | 10/11/2026 | [Notas organizadas em blocos](https://github.com/perabru/api-lab-2026-11-10) | Notion API | Preparado; API agendada |
@@ -22,6 +22,14 @@ Cada data tem seu próprio repositório público. Os dez repositórios foram pre
 | 10 | 12/11/2026 | [Biblioteca com catálogo e empréstimos](https://github.com/perabru/api-lab-2026-11-12) | Open Library APIs | Preparado; API agendada |
 
 Os temas são um plano de implementação. Se uma integração exigir credenciais indisponíveis, tiver limites incompatíveis ou mudar de versão, a implementação pode ser ajustada mantendo um caso de uso útil, a referência e a transparência sobre os limites.
+
+## Evidência da entrega de 07/11/2026
+
+- [Fable Atlas API — código e README](https://github.com/perabru/api-lab-2026-11-07) · [Commit da implementação](https://github.com/perabru/api-lab-2026-11-07/commit/33c084535ab09453f553a8a5e672d8e7c6aac018)
+- [10 testes aprovados; comandos e limites](https://github.com/perabru/api-lab-2026-11-07/blob/main/VERIFICATION.md)
+- [Anúncio](https://github.com/perabru/api-lab-2026-11-07/blob/main/ANNOUNCEMENT.md) · [Post bilíngue publicado no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7524774666121453568/)
+- Melhoria: validador de dados para IDs/referências, demo HTTP e formulário com URL, filtros e página.
+- PokéAPI v2 consultada em 07/11/2026: recursos relacionados e paginação. Oito criaturas fictícias originais, sem importar dados do provedor ou integrar serviço externo. API somente leitura para execução local.
 
 ## Evidência da entrega de 06/11/2026
 

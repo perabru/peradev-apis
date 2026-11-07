@@ -12,11 +12,19 @@ Projetos de Bruno Michel Pera com documentação em português, exemplos execut�
 
 **De 03 a 12/11/2026, com início diário às 07h (Brasília).** Cada dia tem um repositório independente, uma referência de API conhecida, implementação própria, testes, README e um texto para LinkedIn.
 
-Os dias 01 a 04 estão publicados e verificados: **Project Shelf API (11 testes), Order Once API (12 testes), Board Lane API (12 testes) e Thread Notes API (12 testes)**. Os seis repositórios seguintes estão preparados; suas APIs ainda serão desenvolvidas e verificadas nas datas previstas.
+Os dias 01 a 05 estão publicados e verificados: **Project Shelf API (11 testes), Order Once API (12 testes), Board Lane API (12 testes), Thread Notes API (12 testes) e Fable Atlas API (10 testes)**. Os cinco repositórios seguintes estão preparados; suas APIs ainda serão desenvolvidas e verificadas nas datas previstas.
 
 [Ver calendário, referências e repositórios →](docs/10-days.md)
 
 ## Em destaque
+
+### Dia 05 · Fable Atlas API — explore relações
+
+Catálogo local de oito criaturas fictícias originais, quatro tipos e quatro habilidades. Filtros combinados, busca sem acentos/maiúsculas, relações reversas e links de paginação que mantêm os filtros. Referência de estudo: [PokéAPI v2](https://pokeapi.co/docs/v2), consultada em 07/11/2026; dados próprios e sem integração externa.
+
+**07/11/2026 · Node.js 22+ · sem dependências externas · publicado · 10 testes aprovados**
+
+[Repositório →](https://github.com/perabru/api-lab-2026-11-07) · [README →](https://github.com/perabru/api-lab-2026-11-07/blob/main/README.md) · [Anúncio →](announcements/006-fable-atlas.md) · [Evidências →](https://github.com/perabru/api-lab-2026-11-07/blob/main/VERIFICATION.md) · [Post bilíngue no LinkedIn →](https://www.linkedin.com/feed/update/urn:li:activity:7524774666121453568/)
 
 ### Dia 04 · Thread Notes API — a conversa permanece
 
@@ -74,6 +82,7 @@ O código está publicado no GitHub; esta entrega é executada localmente e não
 
 | # | API | Para que serve | Tecnologia | Lançamento |
 |---|---|---|---|---|
+| D05 | [Fable Atlas API](https://github.com/perabru/api-lab-2026-11-07) | Criaturas fictícias com tipos, habilidades, filtros e paginação | Node.js | [Conhecer](announcements/006-fable-atlas.md) |
 | D04 | [Thread Notes API](https://github.com/perabru/api-lab-2026-11-06) | Publicações e comentários com filtros e SQLite | Python | [Conhecer](announcements/005-thread-notes.md) |
 | D03 | [Board Lane API](https://github.com/perabru/api-lab-2026-11-05) | Kanban com movimentos, ordem e vínculos persistentes | Node.js | [Conhecer](announcements/004-board-lane.md) |
 | D02 | [Order Once API](https://github.com/perabru/api-lab-2026-11-04) | Pedidos, centavos e idempotência persistente | Node.js | [Conhecer](announcements/003-order-once.md) |
@@ -103,6 +112,6 @@ Seu apoio incentiva a continuidade e a manutenção do projeto. A contribuição
 
 Cada API resolve um problema específico, tem instruções de execução e inclui verificações de comportamento real. Segredos e dados de execução ficam fora do repositório. Consulte o [roteiro editorial](docs/editorial.md) e o [procedimento da série](docs/continuity.md).
 
-Execute `npm test` na raiz para verificar a API de tarefas presente no hub. Para Project Shelf, Order Once e Board Lane, clone o respectivo repositório independente e execute `npm test` nele. Na Thread Notes API, execute `python -m unittest discover -s tests -v`. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
+Execute `npm test` na raiz para verificar a API de tarefas presente no hub. Para Project Shelf, Order Once, Board Lane e Fable Atlas, clone o respectivo repositório independente e execute `npm test` nele. Na Thread Notes API, execute `python -m unittest discover -s tests -v`. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
 
 **Licença MIT · Bruno Michel Pera**

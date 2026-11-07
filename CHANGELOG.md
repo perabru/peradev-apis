@@ -1,5 +1,14 @@
 # Histórico de mudanças
 
+## 2026-11-07
+
+- Publicada a [Fable Atlas API](https://github.com/perabru/api-lab-2026-11-07), dia 05: catálogo de criaturas fictícias originais, tipos/habilidades, filtros AND, busca sem acentos/maiúsculas, relações reversas e paginação com filtros preservados.
+- Executados 10 testes: todos aprovados, 0 falhas, Node.js 24.22.1. HTTP real, travessia, links relacionados, entradas inválidas, validação de dados e reinício real. check:data e demo também aprovados. [Verificação](https://github.com/perabru/api-lab-2026-11-07/blob/main/VERIFICATION.md).
+- Referência oficial PokéAPI v2 consultada em 07/11/2026. Sem integração externa, importação de dados/imagens ou endpoint hospedado.
+- README retrô com SVG acessível, Pix voluntário, guia e formulário; novo comando de validação ajuda contribuições a preservar vínculos.
+- [Post bilíngue publicado e confirmado](https://www.linkedin.com/feed/update/urn:li:activity:7524774666121453568/), sem duplicata; permalink/data registrados nos controles e LINKEDIN.md.
+- Catálogo atualizado: cinco dias publicados/testados; cinco preparados para suas datas. Task API 001 preservada.
+
 ## 2026-11-06
 
 - Publicada a [Thread Notes API](https://github.com/perabru/api-lab-2026-11-06), dia 04: publicações e comentários, rotas aninhadas, filtros combinados, paginação, SQLite e exclusão protegida de pais ocupados.
