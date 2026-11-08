@@ -4,7 +4,7 @@
 
 Cada data tem seu próprio repositório público. Os dez repositórios foram preparados antecipadamente com README e apoio voluntário por Pix. Isso permite que a rotina agendada publique os arquivos pela conexão GitHub, sem depender da criação de um repositório pelo navegador a cada manhã.
 
-> **Cinco dias publicados e testados:** Project Shelf (03/11, 11 testes), Order Once (04/11, 12 testes), Board Lane (05/11, 12 testes), Thread Notes (06/11, 12 testes) e Fable Atlas (07/11, 10 testes). As cinco APIs seguintes ainda serão implementadas nas respectivas datas.
+> **Seis dias publicados com testes locais:** Project Shelf (11), Order Once (12), Board Lane (12), Thread Notes (12), Fable Atlas (10) e CEP Guard (12). Na CEP Guard, a consulta real ao ViaCEP não foi confirmada por timeout; os testes usam provedor sintético. As quatro APIs seguintes aguardam suas datas.
 
 ## Calendário e referências
 
@@ -15,13 +15,23 @@ Cada data tem seu próprio repositório público. Os dez repositórios foram pre
 | 03 | 05/11/2026 | [Quadros Kanban com colunas e cartões](https://github.com/perabru/api-lab-2026-11-05) | Trello REST API | Publicado; 12 testes aprovados |
 | 04 | 06/11/2026 | [Publicações e comentários com persistência real](https://github.com/perabru/api-lab-2026-11-06) | JSONPlaceholder | Publicado; 12 testes aprovados |
 | 05 | 07/11/2026 | [Catálogo de criaturas fictícias com tipos e habilidades](https://github.com/perabru/api-lab-2026-11-07) | PokéAPI | Publicado; 10 testes aprovados |
-| 06 | 08/11/2026 | [Consulta de CEP com validação e cache](https://github.com/perabru/api-lab-2026-11-08) | ViaCEP | Preparado; API agendada |
+| 06 | 08/11/2026 | [Consulta de CEP com validação e cache](https://github.com/perabru/api-lab-2026-11-08) | ViaCEP | Publicado; 12 testes locais; consulta real não confirmada |
 | 07 | 09/11/2026 | [Clima normalizado com cache e unidades explícitas](https://github.com/perabru/api-lab-2026-11-09) | Open-Meteo | Preparado; API agendada |
 | 08 | 10/11/2026 | [Notas organizadas em blocos](https://github.com/perabru/api-lab-2026-11-10) | Notion API | Preparado; API agendada |
 | 09 | 11/11/2026 | [Diário de observações astronômicas](https://github.com/perabru/api-lab-2026-11-11) | NASA Open APIs / APOD | Preparado; API agendada |
 | 10 | 12/11/2026 | [Biblioteca com catálogo e empréstimos](https://github.com/perabru/api-lab-2026-11-12) | Open Library APIs | Preparado; API agendada |
 
 Os temas são um plano de implementação. Se uma integração exigir credenciais indisponíveis, tiver limites incompatíveis ou mudar de versão, a implementação pode ser ajustada mantendo um caso de uso útil, a referência e a transparência sobre os limites.
+
+## Evidência da entrega de 08/11/2026
+
+- [CEP Guard API — código e README](https://github.com/perabru/api-lab-2026-11-08) · [Commit da implementação](https://github.com/perabru/api-lab-2026-11-08/commit/b2ffcf0660c9659452e72432828967e7263a17c4)
+- [12 testes determinísticos aprovados; comandos e limites](https://github.com/perabru/api-lab-2026-11-08/blob/main/VERIFICATION.md)
+- [Anúncio](https://github.com/perabru/api-lab-2026-11-08/blob/main/ANNOUNCEMENT.md) · [Post bilíngue publicado no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7525137869502525440/)
+- Validação, cache de 5 min/1 min, capacidade de 100 entradas, compartilhamento e timeout de 3 s incluindo corpo.
+- **Integração real não confirmada:** uma consulta direta ao ViaCEP excedeu 3000 ms. Nenhum endereço real inventado; fixtures sintéticas identificadas.
+- Melhoria: demo sem rede, asserções e guia para reproduzir falhas/cache, sem validação massiva.
+- Documentação oficial ViaCEP consultada em 08/11/2026. Código de integração real entregue para execução local, sujeito à rede/provedor; sem hospedagem.
 
 ## Evidência da entrega de 07/11/2026
 

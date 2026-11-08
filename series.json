@@ -180,6 +180,43 @@
         "en"
       ],
       "linkedin_verified_at": "2026-11-07T10:08:33Z"
+    },
+    {
+      "number": 7,
+      "challenge_day": 6,
+      "slug": "cep-guard-api",
+      "date": "2026-11-08",
+      "repository": "perabru/api-lab-2026-11-08",
+      "code_url": "https://github.com/perabru/api-lab-2026-11-08",
+      "github_status": "published",
+      "api_verified": true,
+      "verification_scope": "local_http_with_deterministic_synthetic_provider; live_request_timed_out",
+      "live_integration_verified": false,
+      "integration_status": "implemented_live_lookup_unconfirmed",
+      "integration_limitation": "Uma consulta direta ao ViaCEP em 08/11/2026 excedeu 3000 ms (TimeoutError); nenhum endereço real confirmado.",
+      "reference": "ViaCEP",
+      "reference_url": "https://viacep.com.br/",
+      "verification": {
+        "command": "npm test",
+        "tests_passed": 12,
+        "tests_failed": 0,
+        "node_version": "24.22.1",
+        "report_url": "https://github.com/perabru/api-lab-2026-11-08/blob/main/VERIFICATION.md",
+        "live_integration_verified": false,
+        "commit_sha": "b2ffcf0660c9659452e72432828967e7263a17c4"
+      },
+      "promotion_path": "announcements/007-cep-guard.md",
+      "promotion_status": "published",
+      "promotion_channel": "github",
+      "linkedin_status": "published_with_user_approval",
+      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-08/blob/main/LINKEDIN.md",
+      "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525137869502525440/",
+      "linkedin_published_on": "2026-11-08",
+      "linkedin_languages": [
+        "pt-BR",
+        "en"
+      ],
+      "linkedin_verified_at": "2026-11-08T10:11:54Z"
     }
   ],
   "branding": {
@@ -215,6 +252,6 @@
     "timezone": "America/Sao_Paulo",
     "scheduled_runs": 10,
     "status": "in_progress",
-    "completed_days": 5
+    "completed_days": 6
   }
 }

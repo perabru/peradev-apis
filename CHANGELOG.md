@@ -1,5 +1,14 @@
 # Histórico de mudanças
 
+## 2026-11-08
+
+- Publicada a [CEP Guard API](https://github.com/perabru/api-lab-2026-11-08), dia 06: consulta de CEP, validação, cache positivo/negativo, compartilhamento e timeout de resposta completa.
+- 12 testes determinísticos aprovados, 0 falhas, Node.js 24.22.1; demo executada. HTTP local real e provedor dublê, expiração, erros e reinício. [Evidência](https://github.com/perabru/api-lab-2026-11-08/blob/main/VERIFICATION.md).
+- Uma consulta direta ao ViaCEP excedeu 3 s (TimeoutError); **live_integration_verified=false**. Código integrado ao endpoint oficial, mas consulta real não confirmada. Não simular endereço real.
+- README retrô, banner SVG acessível, Pix voluntário, demo sem rede e guia de contribuição com cenários de falha.
+- [Post bilíngue publicado e confirmado](https://www.linkedin.com/feed/update/urn:li:activity:7525137869502525440/). Após falha de prévia no primeiro envio, verificada ausência no perfil; publicação concluída sem prévia, com um único post confirmado.
+- Manifesto, série, catálogo e calendário atualizados: seis entregas publicadas com testes locais; quatro aguardam suas datas. Preservada Task API 001.
+
 ## 2026-11-07
 
 - Publicada a [Fable Atlas API](https://github.com/perabru/api-lab-2026-11-07), dia 05: catálogo de criaturas fictícias originais, tipos/habilidades, filtros AND, busca sem acentos/maiúsculas, relações reversas e paginação com filtros preservados.

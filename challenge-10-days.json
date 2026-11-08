@@ -188,11 +188,36 @@
       "concept": "Integração pública somente quando viável; timeout, cache e testes determinísticos, sem apresentar dados de demonstração como endereço real.",
       "repo_name": "api-lab-2026-11-08",
       "repo_full_name": "perabru/api-lab-2026-11-08",
-      "status": "repository_prepared",
+      "status": "published",
       "repository_url": "https://github.com/perabru/api-lab-2026-11-08",
-      "implementation_status": "not_started",
-      "linkedin_status": "not_prepared",
-      "api_verified": false
+      "implementation_status": "implemented_and_tested",
+      "linkedin_status": "published_with_user_approval",
+      "api_verified": true,
+      "verification_scope": "local_http_with_deterministic_synthetic_provider; live_request_timed_out",
+      "live_integration_verified": false,
+      "integration_status": "implemented_live_lookup_unconfirmed",
+      "integration_limitation": "Uma consulta direta ao ViaCEP em 08/11/2026 excedeu 3000 ms (TimeoutError); nenhum endereço real confirmado.",
+      "api_name": "CEP Guard API",
+      "published_on": "2026-11-08",
+      "commit_sha": "b2ffcf0660c9659452e72432828967e7263a17c4",
+      "readme_url": "https://github.com/perabru/api-lab-2026-11-08/blob/main/README.md",
+      "announcement_url": "https://github.com/perabru/api-lab-2026-11-08/blob/main/ANNOUNCEMENT.md",
+      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-08/blob/main/LINKEDIN.md",
+      "verification": {
+        "command": "npm test",
+        "tests_passed": 12,
+        "tests_failed": 0,
+        "node_version": "24.22.1",
+        "report_url": "https://github.com/perabru/api-lab-2026-11-08/blob/main/VERIFICATION.md",
+        "live_integration_verified": false
+      },
+      "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525137869502525440/",
+      "linkedin_published_on": "2026-11-08",
+      "linkedin_languages": [
+        "pt-BR",
+        "en"
+      ],
+      "linkedin_verified_at": "2026-11-08T10:11:54Z"
     },
     {
       "day": 7,

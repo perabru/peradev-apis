@@ -12,11 +12,21 @@ Projetos de Bruno Michel Pera com documentação em português, exemplos execut�
 
 **De 03 a 12/11/2026, com início diário às 07h (Brasília).** Cada dia tem um repositório independente, uma referência de API conhecida, implementação própria, testes, README e um texto para LinkedIn.
 
-Os dias 01 a 05 estão publicados e verificados: **Project Shelf API (11 testes), Order Once API (12 testes), Board Lane API (12 testes), Thread Notes API (12 testes) e Fable Atlas API (10 testes)**. Os cinco repositórios seguintes estão preparados; suas APIs ainda serão desenvolvidas e verificadas nas datas previstas.
+Os dias 01 a 06 estão publicados com testes locais concluídos: **Project Shelf (11 testes), Order Once (12), Board Lane (12), Thread Notes (12), Fable Atlas (10) e CEP Guard (12)**. Na CEP Guard, a consulta real ao ViaCEP não foi confirmada por timeout; a verificação usa provedor sintético controlado. Os quatro repositórios seguintes estão preparados para suas datas.
 
 [Ver calendário, referências e repositórios →](docs/10-days.md)
 
 ## Em destaque
+
+### Dia 06 · CEP Guard API — valide e limite a espera
+
+Consulta de CEP com validação, campos normalizados, cache positivo/negativo e compartilhamento de chamadas. Timeout inclui o corpo da resposta. Referência oficial: [ViaCEP](https://viacep.com.br/), consultada em 08/11/2026.
+
+**08/11/2026 · Node.js 22+ · publicado · 12 testes determinísticos aprovados**
+
+**Consulta real não confirmada:** a tentativa direta excedeu 3 s neste ambiente. Integração implementada, demo/testes com dados sintéticos identificados. Sem endpoint hospedado.
+
+[Repositório →](https://github.com/perabru/api-lab-2026-11-08) · [README →](https://github.com/perabru/api-lab-2026-11-08/blob/main/README.md) · [Anúncio →](announcements/007-cep-guard.md) · [Evidências e limitação →](https://github.com/perabru/api-lab-2026-11-08/blob/main/VERIFICATION.md) · [Post bilíngue no LinkedIn →](https://www.linkedin.com/feed/update/urn:li:activity:7525137869502525440/)
 
 ### Dia 05 · Fable Atlas API — explore relações
 
@@ -82,6 +92,7 @@ O código está publicado no GitHub; esta entrega é executada localmente e não
 
 | # | API | Para que serve | Tecnologia | Lançamento |
 |---|---|---|---|---|
+| D06 | [CEP Guard API](https://github.com/perabru/api-lab-2026-11-08) | CEP com cache/timeout; testes locais aprovados, consulta real não confirmada | Node.js | [Conhecer](announcements/007-cep-guard.md) |
 | D05 | [Fable Atlas API](https://github.com/perabru/api-lab-2026-11-07) | Criaturas fictícias com tipos, habilidades, filtros e paginação | Node.js | [Conhecer](announcements/006-fable-atlas.md) |
 | D04 | [Thread Notes API](https://github.com/perabru/api-lab-2026-11-06) | Publicações e comentários com filtros e SQLite | Python | [Conhecer](announcements/005-thread-notes.md) |
 | D03 | [Board Lane API](https://github.com/perabru/api-lab-2026-11-05) | Kanban com movimentos, ordem e vínculos persistentes | Node.js | [Conhecer](announcements/004-board-lane.md) |
@@ -112,6 +123,6 @@ Seu apoio incentiva a continuidade e a manutenção do projeto. A contribuição
 
 Cada API resolve um problema específico, tem instruções de execução e inclui verificações de comportamento real. Segredos e dados de execução ficam fora do repositório. Consulte o [roteiro editorial](docs/editorial.md) e o [procedimento da série](docs/continuity.md).
 
-Execute `npm test` na raiz para verificar a API de tarefas presente no hub. Para Project Shelf, Order Once, Board Lane e Fable Atlas, clone o respectivo repositório independente e execute `npm test` nele. Na Thread Notes API, execute `python -m unittest discover -s tests -v`. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
+Execute `npm test` na raiz para verificar a API de tarefas presente no hub. Para Project Shelf, Order Once, Board Lane, Fable Atlas e CEP Guard, clone o respectivo repositório independente e execute `npm test` nele. Na Thread Notes API, execute `python -m unittest discover -s tests -v`. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
 
 **Licença MIT · Bruno Michel Pera**
