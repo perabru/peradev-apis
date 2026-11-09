@@ -217,6 +217,44 @@
         "en"
       ],
       "linkedin_verified_at": "2026-11-08T10:11:54Z"
+    },
+    {
+      "number": 8,
+      "challenge_day": 7,
+      "slug": "forecast-lens-api",
+      "date": "2026-11-09",
+      "repository": "perabru/api-lab-2026-11-09",
+      "code_url": "https://github.com/perabru/api-lab-2026-11-09",
+      "github_status": "published",
+      "api_verified": true,
+      "verification_scope": "local_http_caller_supplied_json_with_synthetic_fixtures",
+      "live_integration_verified": false,
+      "integration_status": "documented_local_alternative_no_live_lookup",
+      "reference": "Open-Meteo",
+      "reference_url": "https://open-meteo.com/en/docs",
+      "verification": {
+        "command": "npm test",
+        "tests_passed": 14,
+        "tests_failed": 0,
+        "node_version": "24.22.1",
+        "report_url": "https://github.com/perabru/api-lab-2026-11-09/blob/main/VERIFICATION.md",
+        "live_integration_verified": false,
+        "demo_command": "npm run demo",
+        "curl_requests_verified": 4,
+        "commit_sha": "a05f1e8609cef334911f7edd9dea4b34a984a6eb"
+      },
+      "promotion_path": "announcements/008-forecast-lens.md",
+      "promotion_status": "published",
+      "promotion_channel": "github",
+      "linkedin_status": "published_with_user_approval",
+      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-09/blob/main/LINKEDIN.md",
+      "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525500246274109440/",
+      "linkedin_published_on": "2026-11-09",
+      "linkedin_languages": [
+        "pt-BR",
+        "en"
+      ],
+      "linkedin_verified_at": "2026-11-09T10:11:50Z"
     }
   ],
   "branding": {
@@ -252,6 +290,6 @@
     "timezone": "America/Sao_Paulo",
     "scheduled_runs": 10,
     "status": "in_progress",
-    "completed_days": 6
+    "completed_days": 7
   }
 }

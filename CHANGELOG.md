@@ -1,5 +1,15 @@
 # Histórico de mudanças
 
+## 2026-11-09
+
+- Publicada a **Forecast Lens API**, dia 07/10, no [repositório independente](https://github.com/perabru/api-lab-2026-11-09); referência oficial Open-Meteo consultada nesta data.
+- Alternativa local: valida e normaliza JSON fornecido pelo cliente para °C/mm/km/h, com origem declarada e cache de 32 entradas/10 min. Não busca nem verifica clima real.
+- **14 testes passaram, zero falhas**, incluindo HTTP, entradas inválidas, TTL/capacidade e reinício real. Demo com **quatro chamadas curl verificadas**. [Evidências](https://github.com/perabru/api-lab-2026-11-09/blob/main/VERIFICATION.md) · [Commit](https://github.com/perabru/api-lab-2026-11-09/commit/a05f1e8609cef334911f7edd9dea4b34a984a6eb).
+- README com banner SVG acessível, contrato, limites e Pix voluntário; guia e formulário de contribuição orientados a casos mínimos de unidade.
+- [Post bilíngue publicado e confirmado no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7525500246274109440/) após deduplicação; URL/data salvas em LINKEDIN.md, manifesto e série.
+- Catálogo, vitrine, calendário e índice atualizados. Dias 08 a 10 continuam preparados, sem implementação antecipada. Task API 001 preservada.
+- Atualizado o [acompanhamento de segunda-feira](docs/community-progress.md) com métricas públicas datadas: hub 1 estrela, demais sete repositórios consultados 0; todos com 0 forks e 0 itens abertos. Sem atribuição de crescimento a ações da série.
+
 ## 2026-11-08
 
 - Publicada a [CEP Guard API](https://github.com/perabru/api-lab-2026-11-08), dia 06: consulta de CEP, validação, cache positivo/negativo, compartilhamento e timeout de resposta completa.

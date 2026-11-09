@@ -12,11 +12,21 @@ Projetos de Bruno Michel Pera com documentação em português, exemplos execut�
 
 **De 03 a 12/11/2026, com início diário às 07h (Brasília).** Cada dia tem um repositório independente, uma referência de API conhecida, implementação própria, testes, README e um texto para LinkedIn.
 
-Os dias 01 a 06 estão publicados com testes locais concluídos: **Project Shelf (11 testes), Order Once (12), Board Lane (12), Thread Notes (12), Fable Atlas (10) e CEP Guard (12)**. Na CEP Guard, a consulta real ao ViaCEP não foi confirmada por timeout; a verificação usa provedor sintético controlado. Os quatro repositórios seguintes estão preparados para suas datas.
+Os dias 01 a 07 estão publicados com testes locais concluídos: **Project Shelf (11 testes), Order Once (12), Board Lane (12), Thread Notes (12), Fable Atlas (10), CEP Guard (12) e Forecast Lens (14)**. Na CEP Guard, a consulta real ao ViaCEP não foi confirmada por timeout; a verificação usa provedor sintético controlado. A Forecast Lens é um normalizador local de JSON fornecido pelo cliente, sem consulta meteorológica real. Os três repositórios seguintes estão preparados para suas datas.
 
 [Ver calendário, referências e repositórios →](docs/10-days.md)
 
 ## Em destaque
+
+### Dia 07 · Forecast Lens API — unidades claras para cada dia
+
+Valida séries diárias fornecidas pelo cliente e normaliza °F/inch/m/s em °C/mm/km/h. Origem declarada, arrays alinhados e cache limitado com TTL. Referência de estudo: [Open-Meteo](https://open-meteo.com/en/docs), consultada em 09/11/2026.
+
+**09/11/2026 · Node.js 22+ · publicado · 14 testes HTTP aprovados e quatro chamadas curl verificadas**
+
+Alternativa local documentada: não busca nem verifica clima real. A simulação é identificada; importação é uma declaração do cliente. Sem endpoint hospedado.
+
+[Repositório →](https://github.com/perabru/api-lab-2026-11-09) · [README →](https://github.com/perabru/api-lab-2026-11-09/blob/main/README.md) · [Anúncio →](announcements/008-forecast-lens.md) · [Evidências →](https://github.com/perabru/api-lab-2026-11-09/blob/main/VERIFICATION.md) · [Post bilíngue no LinkedIn →](https://www.linkedin.com/feed/update/urn:li:activity:7525500246274109440/)
 
 ### Dia 06 · CEP Guard API — valide e limite a espera
 
@@ -92,6 +102,7 @@ O código está publicado no GitHub; esta entrega é executada localmente e não
 
 | # | API | Para que serve | Tecnologia | Lançamento |
 |---|---|---|---|---|
+| D07 | [Forecast Lens API](https://github.com/perabru/api-lab-2026-11-09) | Séries diárias com unidades explícitas e cache; normalização local, sem clima ao vivo | Node.js | [Conhecer](announcements/008-forecast-lens.md) |
 | D06 | [CEP Guard API](https://github.com/perabru/api-lab-2026-11-08) | CEP com cache/timeout; testes locais aprovados, consulta real não confirmada | Node.js | [Conhecer](announcements/007-cep-guard.md) |
 | D05 | [Fable Atlas API](https://github.com/perabru/api-lab-2026-11-07) | Criaturas fictícias com tipos, habilidades, filtros e paginação | Node.js | [Conhecer](announcements/006-fable-atlas.md) |
 | D04 | [Thread Notes API](https://github.com/perabru/api-lab-2026-11-06) | Publicações e comentários com filtros e SQLite | Python | [Conhecer](announcements/005-thread-notes.md) |
@@ -123,6 +134,6 @@ Seu apoio incentiva a continuidade e a manutenção do projeto. A contribuição
 
 Cada API resolve um problema específico, tem instruções de execução e inclui verificações de comportamento real. Segredos e dados de execução ficam fora do repositório. Consulte o [roteiro editorial](docs/editorial.md) e o [procedimento da série](docs/continuity.md).
 
-Execute `npm test` na raiz para verificar a API de tarefas presente no hub. Para Project Shelf, Order Once, Board Lane, Fable Atlas e CEP Guard, clone o respectivo repositório independente e execute `npm test` nele. Na Thread Notes API, execute `python -m unittest discover -s tests -v`. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
+Execute `npm test` na raiz para verificar a API de tarefas presente no hub. Para Project Shelf, Order Once, Board Lane, Fable Atlas, CEP Guard e Forecast Lens, clone o respectivo repositório independente e execute `npm test` nele. Na Thread Notes API, execute `python -m unittest discover -s tests -v`. Veja também o [plano para a comunidade](docs/community.md) e o [acompanhamento de melhorias](docs/community-progress.md).
 
 **Licença MIT · Bruno Michel Pera**

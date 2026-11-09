@@ -4,6 +4,7 @@ APIs úteis, código aberto e exemplos para executar.
 
 | Data | API | Destaque |
 |---|---|---|
+| 09/11/2026 | [D07 · Forecast Lens API](008-forecast-lens.md) | Unidades explícitas, cache e 14 testes; normalizador local, sem clima ao vivo |
 | 08/11/2026 | [D06 · CEP Guard API](007-cep-guard.md) | 12 testes locais; consulta real ao ViaCEP não confirmada por timeout |
 | 07/11/2026 | [D05 · Fable Atlas API](006-fable-atlas.md) | Criaturas fictícias originais, relações e paginação; 10 testes aprovados |
 | 06/11/2026 | [D04 · Thread Notes API](005-thread-notes.md) | Publicações e comentários persistentes em SQLite; 12 testes HTTP aprovados |

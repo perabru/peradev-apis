@@ -228,11 +228,37 @@
       "concept": "Contrato consistente, coordenadas válidas, datas e unidades; integração real ou alternativa local documentada, sem inventar previsão atual.",
       "repo_name": "api-lab-2026-11-09",
       "repo_full_name": "perabru/api-lab-2026-11-09",
-      "status": "repository_prepared",
+      "status": "published",
       "repository_url": "https://github.com/perabru/api-lab-2026-11-09",
-      "implementation_status": "not_started",
-      "linkedin_status": "not_prepared",
-      "api_verified": false
+      "implementation_status": "implemented_and_tested",
+      "linkedin_status": "published_with_user_approval",
+      "api_verified": true,
+      "verification_scope": "local_http_caller_supplied_json_with_synthetic_fixtures",
+      "live_integration_verified": false,
+      "integration_status": "documented_local_alternative_no_live_lookup",
+      "api_name": "Forecast Lens API",
+      "published_on": "2026-11-09",
+      "commit_sha": "a05f1e8609cef334911f7edd9dea4b34a984a6eb",
+      "readme_url": "https://github.com/perabru/api-lab-2026-11-09/blob/main/README.md",
+      "announcement_url": "https://github.com/perabru/api-lab-2026-11-09/blob/main/ANNOUNCEMENT.md",
+      "linkedin_draft_url": "https://github.com/perabru/api-lab-2026-11-09/blob/main/LINKEDIN.md",
+      "verification": {
+        "command": "npm test",
+        "tests_passed": 14,
+        "tests_failed": 0,
+        "node_version": "24.22.1",
+        "report_url": "https://github.com/perabru/api-lab-2026-11-09/blob/main/VERIFICATION.md",
+        "live_integration_verified": false,
+        "demo_command": "npm run demo",
+        "curl_requests_verified": 4
+      },
+      "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525500246274109440/",
+      "linkedin_published_on": "2026-11-09",
+      "linkedin_languages": [
+        "pt-BR",
+        "en"
+      ],
+      "linkedin_verified_at": "2026-11-09T10:11:50Z"
     },
     {
       "day": 8,

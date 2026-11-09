@@ -4,7 +4,7 @@
 
 Cada data tem seu próprio repositório público. Os dez repositórios foram preparados antecipadamente com README e apoio voluntário por Pix. Isso permite que a rotina agendada publique os arquivos pela conexão GitHub, sem depender da criação de um repositório pelo navegador a cada manhã.
 
-> **Seis dias publicados com testes locais:** Project Shelf (11), Order Once (12), Board Lane (12), Thread Notes (12), Fable Atlas (10) e CEP Guard (12). Na CEP Guard, a consulta real ao ViaCEP não foi confirmada por timeout; os testes usam provedor sintético. As quatro APIs seguintes aguardam suas datas.
+> **Sete dias publicados com testes locais:** Project Shelf (11), Order Once (12), Board Lane (12), Thread Notes (12), Fable Atlas (10), CEP Guard (12) e Forecast Lens (14). Na CEP Guard, a consulta real ao ViaCEP não foi confirmada por timeout; os testes usam provedor sintético. A Forecast Lens é a alternativa local documentada, sem consulta meteorológica real. As três APIs seguintes aguardam suas datas.
 
 ## Calendário e referências
 
@@ -16,12 +16,23 @@ Cada data tem seu próprio repositório público. Os dez repositórios foram pre
 | 04 | 06/11/2026 | [Publicações e comentários com persistência real](https://github.com/perabru/api-lab-2026-11-06) | JSONPlaceholder | Publicado; 12 testes aprovados |
 | 05 | 07/11/2026 | [Catálogo de criaturas fictícias com tipos e habilidades](https://github.com/perabru/api-lab-2026-11-07) | PokéAPI | Publicado; 10 testes aprovados |
 | 06 | 08/11/2026 | [Consulta de CEP com validação e cache](https://github.com/perabru/api-lab-2026-11-08) | ViaCEP | Publicado; 12 testes locais; consulta real não confirmada |
-| 07 | 09/11/2026 | [Clima normalizado com cache e unidades explícitas](https://github.com/perabru/api-lab-2026-11-09) | Open-Meteo | Preparado; API agendada |
+| 07 | 09/11/2026 | [Clima normalizado com cache e unidades explícitas](https://github.com/perabru/api-lab-2026-11-09) | Open-Meteo | Publicado; 14 testes; normalização local sem consulta ao vivo |
 | 08 | 10/11/2026 | [Notas organizadas em blocos](https://github.com/perabru/api-lab-2026-11-10) | Notion API | Preparado; API agendada |
 | 09 | 11/11/2026 | [Diário de observações astronômicas](https://github.com/perabru/api-lab-2026-11-11) | NASA Open APIs / APOD | Preparado; API agendada |
 | 10 | 12/11/2026 | [Biblioteca com catálogo e empréstimos](https://github.com/perabru/api-lab-2026-11-12) | Open Library APIs | Preparado; API agendada |
 
 Os temas são um plano de implementação. Se uma integração exigir credenciais indisponíveis, tiver limites incompatíveis ou mudar de versão, a implementação pode ser ajustada mantendo um caso de uso útil, a referência e a transparência sobre os limites.
+
+## Evidência da entrega de 09/11/2026
+
+- [Forecast Lens API — código e README](https://github.com/perabru/api-lab-2026-11-09) · [Commit da implementação](https://github.com/perabru/api-lab-2026-11-09/commit/a05f1e8609cef334911f7edd9dea4b34a984a6eb)
+- [14 testes aprovados e quatro chamadas curl verificadas](https://github.com/perabru/api-lab-2026-11-09/blob/main/VERIFICATION.md)
+- [Anúncio](https://github.com/perabru/api-lab-2026-11-09/blob/main/ANNOUNCEMENT.md) · [Post bilíngue publicado no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7525500246274109440/) · [Texto e registro](https://github.com/perabru/api-lab-2026-11-09/blob/main/LINKEDIN.md)
+- Normalização de unidades, datas e coordenadas válidas, séries alinhadas, origem declarada e cache em memória de 32 resultados/10 min.
+- **Alternativa local documentada:** recebe JSON do cliente; não consulta nem confirma clima real. Exemplos sintéticos identificados e importação não autenticada.
+- Melhoria: formulário de bug com unidade e corpo mínimo, guia para acrescentar um teste de conversão e demo curl com asserções.
+- Documentação primária [Open-Meteo](https://open-meteo.com/en/docs) consultada em 09/11/2026. Sem credenciais, pacotes externos ou hospedagem.
+- [Acompanhamento semanal da comunidade](community-progress.md): métricas públicas do GitHub consultadas em 09/11/2026, sem atribuir causalidade.
 
 ## Evidência da entrega de 08/11/2026
 
